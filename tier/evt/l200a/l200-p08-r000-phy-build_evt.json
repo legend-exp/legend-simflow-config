@@ -1,0 +1,1012 @@
+{
+  "1010101": {
+    "name": "V02160A",
+    "nplus-fccd-mm": 0.65,
+    "energy": {
+      "sig0": 0.442371,
+      "sig1": 0.017935,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010102": {
+    "name": "V02160B",
+    "nplus-fccd-mm": 0.645,
+    "energy": {
+      "sig0": 0.406644,
+      "sig1": 0.017868,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010103": {
+    "name": "V05261B",
+    "nplus-fccd-mm": 1.1,
+    "energy": {
+      "sig0": 0.484329,
+      "sig1": 0.022107,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010104": {
+    "name": "V05266A",
+    "nplus-fccd-mm": 0.965,
+    "energy": {
+      "sig0": 0.532738,
+      "sig1": 0.021071,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010105": {
+    "name": "V05266B",
+    "nplus-fccd-mm": 0.955,
+    "energy": {
+      "sig0": 0.432518,
+      "sig1": 0.019138,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010106": {
+    "name": "V05268B",
+    "nplus-fccd-mm": 0.85,
+    "energy": {
+      "sig0": 0.865084,
+      "sig1": 0.019801,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010107": {
+    "name": "V05612A",
+    "nplus-fccd-mm": 1.385,
+    "energy": {
+      "sig0": 0.746149,
+      "sig1": 0.024146,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010108": {
+    "name": "V07647A",
+    "nplus-fccd-mm": 1.27,
+    "energy": {
+      "sig0": 0.505044,
+      "sig1": 0.019917,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010109": {
+    "name": "V07647B",
+    "nplus-fccd-mm": 0.915,
+    "energy": {
+      "sig0": 0.419227,
+      "sig1": 0.019615,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010201": {
+    "name": "B00035C",
+    "nplus-fccd-mm": 0.79,
+    "energy": {
+      "sig0": 0.260216,
+      "sig1": 0.018062,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010202": {
+    "name": "C000RG1",
+    "nplus-fccd-mm": 1.5,
+    "energy": {
+      "sig0": 1.963193,
+      "sig1": 0.023829,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010203": {
+    "name": "C000RG2",
+    "nplus-fccd-mm": 2.3,
+    "energy": {
+      "sig0": 1.569827,
+      "sig1": 0.021089,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010204": {
+    "name": "C00ANG3",
+    "nplus-fccd-mm": 1.9,
+    "energy": {
+      "sig0": 1.465168,
+      "sig1": 0.02028,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010205": {
+    "name": "C00ANG5",
+    "nplus-fccd-mm": 2.6,
+    "energy": {
+      "sig0": 1.466228,
+      "sig1": 0.025342,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010206": {
+    "name": "C00ANG2",
+    "nplus-fccd-mm": 2.3,
+    "energy": {
+      "sig0": 1.438998,
+      "sig1": 0.022678,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010207": {
+    "name": "V00074A",
+    "nplus-fccd-mm": 1.14,
+    "energy": {
+      "sig0": 0.372469,
+      "sig1": 0.020584,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010208": {
+    "name": "V04549A",
+    "nplus-fccd-mm": 1.09,
+    "energy": {
+      "sig0": 0.416237,
+      "sig1": 0.020872,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010209": {
+    "name": "V07298B",
+    "nplus-fccd-mm": 0.95,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010301": {
+    "name": "B00032B",
+    "nplus-fccd-mm": 1.13,
+    "energy": {
+      "sig0": 0.255014,
+      "sig1": 0.01783,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010302": {
+    "name": "B00091C",
+    "nplus-fccd-mm": 0.96,
+    "energy": {
+      "sig0": 0.237165,
+      "sig1": 0.018859,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010303": {
+    "name": "P00574B",
+    "nplus-fccd-mm": 0.958,
+    "energy": {
+      "sig0": 0.229754,
+      "sig1": 0.02199,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010304": {
+    "name": "P00665A",
+    "nplus-fccd-mm": 0.822,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010305": {
+    "name": "P00698A",
+    "nplus-fccd-mm": 0.92,
+    "energy": {
+      "sig0": 0.123508,
+      "sig1": 0.022364,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010306": {
+    "name": "P00712A",
+    "nplus-fccd-mm": 0.774,
+    "energy": {
+      "sig0": 0.0,
+      "sig1": 0.02758,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010307": {
+    "name": "P00909C",
+    "nplus-fccd-mm": 0.776,
+    "energy": {
+      "sig0": 0.372509,
+      "sig1": 0.019127,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010308": {
+    "name": "P00661B",
+    "nplus-fccd-mm": 1.06,
+    "energy": {
+      "sig0": 0.198846,
+      "sig1": 0.020829,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010309": {
+    "name": "P00574A",
+    "nplus-fccd-mm": 0.872,
+    "energy": {
+      "sig0": 0.183235,
+      "sig1": 0.022928,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010401": {
+    "name": "B00000B",
+    "nplus-fccd-mm": 1.29,
+    "energy": {
+      "sig0": 0.279105,
+      "sig1": 0.017853,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010402": {
+    "name": "B00000C",
+    "nplus-fccd-mm": 1.01,
+    "energy": {
+      "sig0": 0.273771,
+      "sig1": 0.01785,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010403": {
+    "name": "B00061A",
+    "nplus-fccd-mm": 1.01,
+    "energy": {
+      "sig0": 0.242319,
+      "sig1": 0.020594,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010404": {
+    "name": "B00061C",
+    "nplus-fccd-mm": 0.8,
+    "energy": {
+      "sig0": 0.285366,
+      "sig1": 0.018232,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010405": {
+    "name": "B00076C",
+    "nplus-fccd-mm": 0.96,
+    "energy": {
+      "sig0": 0.328317,
+      "sig1": 0.018435,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010406": {
+    "name": "B00079B",
+    "nplus-fccd-mm": 1.04,
+    "energy": {
+      "sig0": 0.331094,
+      "sig1": 0.018415,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010407": {
+    "name": "B00079C",
+    "nplus-fccd-mm": 1.1,
+    "energy": {
+      "sig0": 0.257726,
+      "sig1": 0.018526,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010408": {
+    "name": "V01386A",
+    "nplus-fccd-mm": 2.6,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010409": {
+    "name": "V01403A",
+    "nplus-fccd-mm": 1.4,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010410": {
+    "name": "V01404A",
+    "nplus-fccd-mm": 1.8,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010411": {
+    "name": "V01406A",
+    "nplus-fccd-mm": 1.756,
+    "energy": {
+      "sig0": 0.564157,
+      "sig1": 0.029165,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010412": {
+    "name": "V01415A",
+    "nplus-fccd-mm": 1.28,
+    "energy": {
+      "sig0": 0.763016,
+      "sig1": 0.02564,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010501": {
+    "name": "V08682B",
+    "nplus-fccd-mm": 1.405,
+    "energy": {
+      "sig0": 0.843832,
+      "sig1": 0.019089,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010502": {
+    "name": "V08682A",
+    "nplus-fccd-mm": 1.065,
+    "energy": {
+      "sig0": 1.123957,
+      "sig1": 0.023836,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010503": {
+    "name": "V09372A",
+    "nplus-fccd-mm": 0.945,
+    "energy": {
+      "sig0": 1.057787,
+      "sig1": 0.02278,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010504": {
+    "name": "V09374A",
+    "nplus-fccd-mm": 0.995,
+    "energy": {
+      "sig0": 1.010635,
+      "sig1": 0.019337,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010505": {
+    "name": "V09724A",
+    "nplus-fccd-mm": 1.045,
+    "energy": {
+      "sig0": 0.998157,
+      "sig1": 0.01901,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010701": {
+    "name": "V02162B",
+    "nplus-fccd-mm": 0.69,
+    "energy": {
+      "sig0": 0.42057,
+      "sig1": 0.019683,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010702": {
+    "name": "V02166B",
+    "nplus-fccd-mm": 0.685,
+    "energy": {
+      "sig0": 0.396248,
+      "sig1": 0.018142,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010703": {
+    "name": "V04199A",
+    "nplus-fccd-mm": 1.12,
+    "energy": {
+      "sig0": 0.405443,
+      "sig1": 0.019712,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010704": {
+    "name": "V04545A",
+    "nplus-fccd-mm": 0.97,
+    "energy": {
+      "sig0": 0.722554,
+      "sig1": 0.024408,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010705": {
+    "name": "V05267B",
+    "nplus-fccd-mm": 0.95,
+    "energy": {
+      "sig0": 0.526489,
+      "sig1": 0.020759,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010706": {
+    "name": "V07646A",
+    "nplus-fccd-mm": 1.18,
+    "energy": {
+      "sig0": 0.419027,
+      "sig1": 0.019836,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010707": {
+    "name": "V07302B",
+    "nplus-fccd-mm": 0.905,
+    "energy": {
+      "sig0": 0.392572,
+      "sig1": 0.01798,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010801": {
+    "name": "B00089C",
+    "nplus-fccd-mm": 0.99,
+    "energy": {
+      "sig0": 0.337964,
+      "sig1": 0.01796,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010802": {
+    "name": "B00089D",
+    "nplus-fccd-mm": 1.02,
+    "energy": {
+      "sig0": 0.305519,
+      "sig1": 0.017869,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010803": {
+    "name": "C00ANG4",
+    "nplus-fccd-mm": 1.4,
+    "energy": {
+      "sig0": 1.56415,
+      "sig1": 0.019164,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010804": {
+    "name": "V00048B",
+    "nplus-fccd-mm": 0.8,
+    "energy": {
+      "sig0": 0.346479,
+      "sig1": 0.020042,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010805": {
+    "name": "V00050A",
+    "nplus-fccd-mm": 1.03,
+    "energy": {
+      "sig0": 0.387014,
+      "sig1": 0.018193,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010806": {
+    "name": "V00050B",
+    "nplus-fccd-mm": 0.79,
+    "energy": {
+      "sig0": 0.383827,
+      "sig1": 0.021739,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010807": {
+    "name": "V01387A",
+    "nplus-fccd-mm": 1.7,
+    "energy": {
+      "sig0": 1e-6,
+      "sig1": 0.0361,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010808": {
+    "name": "V05261A",
+    "nplus-fccd-mm": 0.9,
+    "energy": {
+      "sig0": 0.528118,
+      "sig1": 0.02299,
+      "sig2": 0
+    },
+    "usability": "off"
+  },
+  "1010809": {
+    "name": "V05268A",
+    "nplus-fccd-mm": 1.0,
+    "energy": {
+      "sig0": 0.527898,
+      "sig1": 0.019523,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010810": {
+    "name": "V07302A",
+    "nplus-fccd-mm": 1.095,
+    "energy": {
+      "sig0": 0.4009,
+      "sig1": 0.018121,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010901": {
+    "name": "B00002A",
+    "nplus-fccd-mm": 0.86,
+    "energy": {
+      "sig0": 0.740792,
+      "sig1": 0.018219,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010902": {
+    "name": "B00089A",
+    "nplus-fccd-mm": 0.99,
+    "energy": {
+      "sig0": 0.484531,
+      "sig1": 0.017762,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010903": {
+    "name": "B00091A",
+    "nplus-fccd-mm": 0.99,
+    "energy": {
+      "sig0": 0.538391,
+      "sig1": 0.017982,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010904": {
+    "name": "B00091D",
+    "nplus-fccd-mm": 0.99,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010905": {
+    "name": "P00537A",
+    "nplus-fccd-mm": 0.896,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1010906": {
+    "name": "P00538A",
+    "nplus-fccd-mm": 0.78,
+    "energy": {
+      "sig0": 0.560283,
+      "sig1": 0.021896,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010907": {
+    "name": "P00573A",
+    "nplus-fccd-mm": 0.506,
+    "energy": {
+      "sig0": 0.346944,
+      "sig1": 0.02135,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010908": {
+    "name": "P00661C",
+    "nplus-fccd-mm": 1.114,
+    "energy": {
+      "sig0": 0.319184,
+      "sig1": 0.027943,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010909": {
+    "name": "P00662C",
+    "nplus-fccd-mm": 0.853,
+    "energy": {
+      "sig0": 0.289621,
+      "sig1": 0.020173,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010910": {
+    "name": "P00664A",
+    "nplus-fccd-mm": 1.217,
+    "energy": {
+      "sig0": 0.361924,
+      "sig1": 0.023459,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010911": {
+    "name": "P00665C",
+    "nplus-fccd-mm": 0.92,
+    "energy": {
+      "sig0": 0.0,
+      "sig1": 0.02744,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010912": {
+    "name": "P00748B",
+    "nplus-fccd-mm": 0.895,
+    "energy": {
+      "sig0": 0.0,
+      "sig1": 0.04618,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1010913": {
+    "name": "P00909B",
+    "nplus-fccd-mm": 0.628,
+    "energy": {
+      "sig0": 0.289336,
+      "sig1": 0.020812,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1010914": {
+    "name": "B00091B",
+    "nplus-fccd-mm": 1.1,
+    "energy": {
+      "sig0": 0.558609,
+      "sig1": 0.018196,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1011001": {
+    "name": "B00000D",
+    "nplus-fccd-mm": 0.86,
+    "energy": {
+      "sig0": 0.453038,
+      "sig1": 0.018045,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011002": {
+    "name": "B00002C",
+    "nplus-fccd-mm": 0.93,
+    "energy": {
+      "sig0": 0.314533,
+      "sig1": 0.018188,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011003": {
+    "name": "B00032C",
+    "nplus-fccd-mm": 0.96,
+    "energy": {
+      "sig0": 0.334446,
+      "sig1": 0.017659,
+      "sig2": 0
+    },
+    "usability": "ac"
+  },
+  "1011004": {
+    "name": "B00032D",
+    "nplus-fccd-mm": 0.77,
+    "energy": {
+      "sig0": 0.302337,
+      "sig1": 0.017977,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011005": {
+    "name": "B00035A",
+    "nplus-fccd-mm": 1.25,
+    "energy": {
+      "sig0": 0.323265,
+      "sig1": 0.017932,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011006": {
+    "name": "B00035B",
+    "nplus-fccd-mm": 1.02,
+    "energy": {
+      "sig0": 0.437766,
+      "sig1": 0.018669,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011007": {
+    "name": "B00061B",
+    "nplus-fccd-mm": 1.0,
+    "energy": {
+      "sig0": 0.294495,
+      "sig1": 0.018206,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011008": {
+    "name": "B00089B",
+    "nplus-fccd-mm": 1.13,
+    "energy": {
+      "sig0": 0.298044,
+      "sig1": 0.018096,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011009": {
+    "name": "V00048A",
+    "nplus-fccd-mm": 0.82,
+    "energy": {
+      "sig0": 0.447589,
+      "sig1": 0.018331,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011010": {
+    "name": "V01240A",
+    "nplus-fccd-mm": 1.756,
+    "energy": {
+      "sig0": 0.357224,
+      "sig1": 0.019156,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011011": {
+    "name": "V01389A",
+    "nplus-fccd-mm": 1.756,
+    "energy": {
+      "sig0": 0.486153,
+      "sig1": 0.022938,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011012": {
+    "name": "V05267A",
+    "nplus-fccd-mm": 1.13,
+    "energy": {
+      "sig0": 0.57156,
+      "sig1": 0.027776,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011013": {
+    "name": "V05612B",
+    "nplus-fccd-mm": 0.93,
+    "energy": {
+      "sig0": 0.729904,
+      "sig1": 0.025522,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011101": {
+    "name": "B00000A",
+    "nplus-fccd-mm": 0.91,
+    "energy": {
+      "sig0": 0.34963,
+      "sig1": 0.017816,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011102": {
+    "name": "B00002B",
+    "nplus-fccd-mm": 0.97,
+    "energy": {
+      "sig0": 0.344963,
+      "sig1": 0.017954,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011103": {
+    "name": "B00032A",
+    "nplus-fccd-mm": 0.91,
+    "energy": {
+      "sig0": 0.382991,
+      "sig1": 0.018246,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011104": {
+    "name": "P00538B",
+    "nplus-fccd-mm": 0.85,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1011105": {
+    "name": "P00573B",
+    "nplus-fccd-mm": 0.96,
+    "energy": {
+      "sig0": 0.230162,
+      "sig1": 0.025856,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011106": {
+    "name": "P00575A",
+    "nplus-fccd-mm": 0.851,
+    "energy": {
+      "sig0": 0.286356,
+      "sig1": 0.021756,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011107": {
+    "name": "P00574C",
+    "nplus-fccd-mm": 0.972,
+    "energy": {
+      "sig0": 0.223327,
+      "sig1": 0.023343,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011108": {
+    "name": "P00661A",
+    "nplus-fccd-mm": 0.915,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1011109": {
+    "name": "P00662A",
+    "nplus-fccd-mm": 0.988,
+    "energy": {
+      "sig0": 0.362981,
+      "sig1": 0.02027,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011110": {
+    "name": "P00662B",
+    "nplus-fccd-mm": 0.515,
+    "energy": {
+      "sig0": 0.298111,
+      "sig1": 0.020198,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011111": {
+    "name": "P00665B",
+    "nplus-fccd-mm": 0.88,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  },
+  "1011112": {
+    "name": "P00748A",
+    "nplus-fccd-mm": 1.01,
+    "energy": {
+      "sig0": 0.362001,
+      "sig1": 0.018762,
+      "sig2": 0
+    },
+    "usability": "on"
+  },
+  "1011113": {
+    "name": "P00698B",
+    "nplus-fccd-mm": 0.863,
+    "energy": {
+      "sig0": null,
+      "sig1": null,
+      "sig2": null
+    },
+    "usability": "off"
+  }
+}
