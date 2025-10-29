@@ -1,7 +1,0 @@
-{
-  "l1000cdr-hpge-surface-vertices": {
-    "template": "l1000cdr-hpge-surface-vertices.template.mac",
-    "number_of_primaries": 1e9,
-    "number_of_jobs": 100
-  }
-}

@@ -1,0 +1,36 @@
+/RMG/Manager/Randomization/Seed {SEED}
+
+/RMG/Geometry/RegisterDetectorsFromGDML Germanium
+/RMG/Geometry/RegisterDetectorsFromGDML Optical
+/RMG/Geometry/GDMLDisableOverlapCheck
+
+# name tables with ntuple
+/RMG/Output/NtupleUseVolumeName true
+
+# physics options
+/RMG/Processes/EnableGammaAngularCorrelation true
+/RMG/Processes/OpticalPhysics
+/RMG/Processes/OpticalPhysicsMaxOneWLSPhoton
+
+/run/initialize
+
+# discard events without energy in germanium
+/RMG/Output/Germanium/EdepCutLow $HPGE_ENERGY_THRESHOLD
+
+# store everything in single precision
+/RMG/Output/Germanium/StoreSinglePrecisionPosition
+/RMG/Output/Germanium/StoreSinglePrecisionEnergy
+/RMG/Output/Optical/StoreSinglePrecisionEnergy
+/RMG/Output/Vertex/StoreSinglePrecisionPosition
+
+# do not track optical photons if no energy in germanium
+/RMG/Output/Germanium/DiscardPhotonsIfNoGermaniumEdep
+
+# store trackid
+/RMG/Output/Germanium/StoreTrackID true
+
+$GENERATOR
+
+$CONFINEMENT
+
+/run/beamOn {N_EVENTS}

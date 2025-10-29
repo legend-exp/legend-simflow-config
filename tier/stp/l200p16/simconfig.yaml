@@ -1,0 +1,79 @@
+l200p03-sis1-z8230-slot2-Bi212-to-Pb208:
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      "1":
+        sis_z: 8230
+        offset: -4.8
+        phi_offset: 1.7
+        sources:
+          - null
+          - null
+          - Th228
+          - null
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:source_inner_sis1_source2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 10_000_000 # ~2 h
+  number_of_jobs: 128
+
+l200p03-sis1-z8640-slot3-Pb214-to-Po214:
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      "1":
+        sis_z: 8640
+        offset: -4.8
+        phi_offset: 1.7
+        sources:
+          - null
+          - Ra
+          - null
+          - null
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:source_inner_sis1_source1
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 1.7 MeV
+  primaries_per_job: 10_000_000 # ~2.6 h
+  number_of_jobs: 128
+
+l200p03-sis1-z8230-slot2-Bi212-to-Pb208-woptics:
+  template: $_/templates/hpge-ethr-and-optics.mac
+  geom_config_extra:
+    sis:
+      "1":
+        sis_z: 8230
+        offset: -4.8
+        phi_offset: 1.7
+        sources:
+          - null
+          - null
+          - Th228
+          - null
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:source_inner_sis1_source2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 1.9 MeV
+  primaries_per_job: 20_000 # ~3 h
+  number_of_jobs: 128
+
+l200p03-sis1-z8640-slot3-Pb214-to-Po214-woptics:
+  template: $_/templates/hpge-ethr-and-optics.mac
+  geom_config_extra:
+    sis:
+      "1":
+        sis_z: 8640
+        offset: -4.8
+        phi_offset: 1.7
+        sources:
+          - null
+          - Ra
+          - null
+          - null
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:source_inner_sis1_source1
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 1.9 MeV
+  primaries_per_job: 200_000 # ~3 h
+  number_of_jobs: 128
