@@ -1,4 +1,4 @@
-l200p03-sis1-z8230-slot2-Bi212-to-Pb208:
+sis1-z8230-slot2-Bi212-to-Pb208:
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -18,7 +18,7 @@ l200p03-sis1-z8230-slot2-Bi212-to-Pb208:
   primaries_per_job: 10_000_000 # ~2 h
   number_of_jobs: 128
 
-l200p03-sis1-z8640-slot3-Pb214-to-Po214:
+sis1-z8640-slot3-Pb214-to-Po214:
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -38,7 +38,7 @@ l200p03-sis1-z8640-slot3-Pb214-to-Po214:
   primaries_per_job: 10_000_000 # ~2.6 h
   number_of_jobs: 128
 
-l200p03-sis1-z8230-slot2-Bi212-to-Pb208-woptics:
+sis1-z8230-slot2-Bi212-to-Pb208-woptics:
   template: $_/templates/hpge-ethr-and-optics.mac
   geom_config_extra:
     sis:
@@ -58,7 +58,7 @@ l200p03-sis1-z8230-slot2-Bi212-to-Pb208-woptics:
   primaries_per_job: 20_000 # ~3 h
   number_of_jobs: 128
 
-l200p03-sis1-z8640-slot3-Pb214-to-Po214-woptics:
+sis1-z8640-slot3-Pb214-to-Po214-woptics:
   template: $_/templates/hpge-ethr-and-optics.mac
   geom_config_extra:
     sis:
@@ -75,5 +75,5 @@ l200p03-sis1-z8640-slot3-Pb214-to-Po214-woptics:
   confinement: ~volumes.bulk:source_inner_sis1_source1
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 1.9 MeV
-  primaries_per_job: 200_000 # ~3 h
-  number_of_jobs: 128
+  primaries_per_job: 100 # ~3 h
+  number_of_jobs: 1
