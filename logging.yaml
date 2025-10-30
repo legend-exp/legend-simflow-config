@@ -1,0 +1,58 @@
+version: 1
+disable_existing_loggers: false
+
+formatters:
+  simple:
+    format: >-
+      %(asctime)s|%(levelname)s|%(name)s @%(filename)s:L%(lineno)d >>>
+      %(message)s
+    datefmt: "%Y-%m-%d %H:%M:%S"
+
+# the handlers defined here can be attached to the specific loggers (see
+# "loggers" section below)
+handlers:
+  # handler to redirect to stdout, useful for interactive debugging
+  console:
+    class: logging.StreamHandler
+    level: DEBUG
+    formatter: simple
+    stream: ext://sys.stdout
+
+  # example handler to redirect to a single custom file
+  file:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: simple
+    filename: .dataflow.log
+    mode: w
+
+  # use this handler if you want the messages to be automatically handled by
+  # the dataflow, i.e. organized into several log files.
+  # the filename will be overridden at runtime by the dataflow
+  dataflow:
+    class: logging.FileHandler
+    level: DEBUG
+    formatter: simple
+    filename: __auto__
+    mode: a
+
+loggers:
+  # this logger is used by the dataflow scripts used in snakemake rules
+  # changing its settings will affect the messages emitted by these scripts
+  # loggers for snakemake scripts are usually setup with
+  # legenddataflowscripts.utils.build_log()
+  prod:
+    level: DEBUG
+    handlers: [dataflow]
+    propagate: no
+
+  # optional different logging settings than the "root" for our dependent packages
+  pyg4ometry:
+    level: INFO
+    handlers: [dataflow]
+    propagate: no
+
+# this is the default emission level, inherited by all loggers
+root:
+  level: INFO
+  handlers: [dataflow]
