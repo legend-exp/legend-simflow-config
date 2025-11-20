@@ -24,6 +24,7 @@ repos:
     rev: "v2.4.1"
     hooks:
       - id: codespell
+        args: ["-L", "livetime"]
 
   - repo: https://github.com/pre-commit/mirrors-prettier
     rev: "v4.0.0-alpha.8"
