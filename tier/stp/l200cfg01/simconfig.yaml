@@ -1,0 +1,155 @@
+birds_nest_Bi212_to_Pb208: &Th228
+  template: $_/templates/default.mac
+  generator: ~defines:Bi212_to_Pb208
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge_support_copper_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+
+ultem_insulators_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+
+cables_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_cable_.*
+
+pen_plates_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+
+sipm_arrays_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:S.*
+
+wls_reflector_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:wlsr_.*
+
+minishrouds_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:minishroud_.*
+
+fibers_Bi212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:fiber_.*
+
+birds_nest_K40: &K40
+  template: $_/templates/default.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge_support_copper_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+
+ultem_insulators_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+
+cables_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_cable_.*
+
+pen_plates_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+
+sipm_arrays_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:S.*
+
+wls_reflector_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:wlsr_.*
+
+minishrouds_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:minishroud_.*
+
+fibers_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:fiber_.*
+
+birds_nest_Ra228_to_Ac228: &Ac228
+  template: $_/templates/default.mac
+  generator: ~defines:Ra228_to_Ac228
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge_support_copper_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+
+ultem_insulators_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+
+cables_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_cable_.*
+
+pen_plates_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+
+sipm_arrays_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:S.*
+
+wls_reflector_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:wlsr_.*
+
+minishrouds_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:minishroud_.*
+
+fibers_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:fiber_.*
+
+birds_nest_Pb214_to_Po214: &U238
+  template: $_/templates/default.mac
+  generator: ~defines:Pb214_to_Po214
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge_support_copper_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+
+ultem_insulators_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+
+cables_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_cable_.*
+
+pen_plates_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+
+sipm_arrays_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:S.*
+
+wls_reflector_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:wlsr_.*
+
+minishrouds_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:minishroud_.*
+
+fibers_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:fiber_.*
