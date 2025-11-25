@@ -56,7 +56,7 @@ The naming convention is `l200cfgNN`, where `cfg` stands for "configuration" and
   argon instrumentation deployed_, no HPGe array. Data taking period p13, `r001`
   (Dec 2024).
 
-- `l200cfg06`: same as `cfg04`, but with some new SiPM modules. Since new
+- `l200cfg06`: same as `cfg05`, but with some new SiPM modules. Since new
   detectors are installed, the configuration is technically different and we
   bump the experiment label. Data taking period p13, from `r002` (start:
   Dec 2024) on.
