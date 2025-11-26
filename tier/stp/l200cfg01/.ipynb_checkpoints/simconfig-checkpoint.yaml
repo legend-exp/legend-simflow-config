@@ -1,0 +1,261 @@
+birds-nest-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:top_plate
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge-support-copper-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:hpge_support_copper.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+ultem-insulators-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:ultem.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+cables-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:cable.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+pen-plates-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:pen.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+sipm-arrays-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+wls-reflector-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:wlsr.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+minishroud-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:minishroud.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+fibers-Bi212-to-Pb208:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Bi212-to-Pb208
+  confinement: ~volumes.bulk:fiber.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+birds-nest-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:top_plate
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge-support-copper-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:hpge_support_copper.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+ultem-insulators-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:ultem.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+cables-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:cable.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+pen-plates-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:pen.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+sipm-arrays-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+wls-reflector-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:wlsr.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+minishroud-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:minishroud.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+fibers-K40:
+  template: $_/templates/hpge.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:fiber.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+birds-nest-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:top_plate
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+hpge-support-copper-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:hpge_support_copper.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+ultem-insulators-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:ultem.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+cables-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:cable.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+pen-plates-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:pen.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+sipm-arrays-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+wls-reflector-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:wlsr.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+minishroud-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:minishroud.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+fibers-Ra228-to-Ac228:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:fiber.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+birds-nest-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:top_plate
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+hpge-support-copper-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Ra228-to-Ac228
+  confinement: ~volumes.bulk:hpge_support_copper.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+ultem-insulators-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:ultem.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+cables-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:cable.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+pen-plates-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:pen.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+
+sipm-arrays-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+wls-reflector-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:wlsr.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+minishroud-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:minishroud.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
+
+fibers-Pb214-to-Po214:
+  template: $_/templates/hpge.mac
+  generator: ~defines:Pb214-to-Po214
+  confinement: ~volumes.bulk:fiber.*
+  primaries_per_job: 1_000_000
+  number_of_jobs: 10
