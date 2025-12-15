@@ -1,0 +1,19 @@
+sis1_z8230_slot2_Bi212_to_Pb208:
+  runlist:
+    - l200-p16-r008-ssc
+    - l200-p16-r009-ssc
+    - l200-p16-r010-ssc
+    - l200-p16-r011-ssc
+    - l200-p16-r012-ssc
+    - l200-p16-r013-ssc
+    - l200-p16-r014-ssc
+    - l200-p16-r015-ssc
+    - l200-p16-r016-ssc
+    - l200-p16-r017-ssc
+    - l200-p16-r018-ssc
+
+sis1_z8640_slot3_Pb214_to_Po214:
+  runlist:
+    - l200-p16-r019-rdc
+    - l200-p16-r020-rdc
+    - l200-p16-r021-rdc
