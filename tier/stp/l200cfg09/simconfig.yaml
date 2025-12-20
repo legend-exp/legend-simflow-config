@@ -1,4 +1,8 @@
-sis1_z8230_slot2_Bi212_to_Pb208:
+# p16-ssc simulations
+# -------------------
+
+# r008
+sis1_z8230_slot2_Bi212_to_Pb208: &sis1_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -12,13 +16,129 @@ sis1_z8230_slot2_Bi212_to_Pb208:
           3: null
           4: null
   generator: ~defines:Bi212_to_Pb208
-  confinement: ~volumes.bulk:source_inner_sis1_source2
+  confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
   primaries_per_job: 10_000_000 # ~2 h
-  number_of_jobs: 128
+  number_of_jobs: 1
 
-sis1_z8640_slot3_Pb214_to_Po214:
+# r009
+sis1_z8430_slot2_Bi212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  sis:
+    1:
+      sis_z: 8430
+
+# r010
+sis1_z8630_slot2_Bi212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  sis:
+    1:
+      sis_z: 8630
+
+# r011
+sis1_z8830_slot2_Bi212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  sis:
+    1:
+      sis_z: 8830
+
+# r012
+sis2_z8300_slot2_Bi212_to_Pb208: &sis2_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      2:
+        sis_z: 8300
+        offset: 0
+        phi_offset: 0
+        sources:
+          1: null
+          2: Th228
+          3: null
+          4: null
+  generator: ~defines:Bi212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis2_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 10_000_000 # ~2 h
+  number_of_jobs: 1
+
+# r013
+sis2_z8700_slot2_Bi212_to_Pb208:
+  <<: *sis2_slot2_Th228
+  sis:
+    2:
+      sis_z: 8700
+
+# r014
+sis3_z8450_slot2_Bi212_to_Pb208: &sis3_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      3:
+        sis_z: 8450
+        offset: 0
+        phi_offset: 0
+        sources:
+          1: null
+          2: Th228
+          3: null
+          4: null
+  generator: ~defines:Bi212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis3_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 10_000_000 # ~2 h
+  number_of_jobs: 1
+
+# r015
+sis3_z8650_slot2_Bi212_to_Pb208:
+  <<: *sis3_slot2_Th228
+  sis:
+    3:
+      sis_z: 8650
+
+# r016
+sis4_z8230_slot2_Bi212_to_Pb208: &sis4_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      4:
+        sis_z: 8230
+        offset: 0
+        phi_offset: 0
+        sources:
+          1: null
+          2: Th228
+          3: null
+          4: null
+  generator: ~defines:Bi212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis4_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 10_000_000 # ~2 h
+  number_of_jobs: 1
+
+# r017
+sis4_z8430_slot2_Bi212_to_Pb208:
+  <<: *sis4_slot2_Th228
+  sis:
+    4:
+      sis_z: 8430
+
+# r018
+sis4_z8630_slot2_Bi212_to_Pb208:
+  <<: *sis4_slot2_Th228
+  sis:
+    4:
+      sis_z: 8630
+
+# p16-rdc simulations
+# -------------------
+
+# r019
+sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -32,48 +152,58 @@ sis1_z8640_slot3_Pb214_to_Po214:
           3: Ra
           4: null
   generator: ~defines:Pb214_to_Po214
-  confinement: ~volumes.bulk:source_inner_sis1_source3
+  confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
   macro_substitutions:
-    HPGE_ENERGY_THRESHOLD: 1.7 MeV
+    HPGE_ENERGY_THRESHOLD: 550 keV
   primaries_per_job: 10_000_000 # ~2.6 h
-  number_of_jobs: 128
-
-sis1_z8230_slot2_Bi212_to_Pb208_woptics:
-  template: $_/templates/hpge-ethr-and-optics.mac
-  geom_config_extra:
-    sis:
-      1:
-        sis_z: 8230
-        offset: -4.8
-        phi_offset: 1.7
-        sources:
-          1: null
-          2: Th228
-          3: null
-          4: null
-  generator: ~defines:Bi212_to_Pb208
-  confinement: ~volumes.bulk:source_inner_sis1_source2
-  macro_substitutions:
-    HPGE_ENERGY_THRESHOLD: 1.9 MeV
-  primaries_per_job: 20_000 # ~3 h
-  number_of_jobs: 128
-
-sis1_z8640_slot3_Pb214_to_Po214_woptics:
-  template: $_/templates/hpge-ethr-and-optics.mac
-  geom_config_extra:
-    sis:
-      1:
-        sis_z: 8640
-        offset: -4.8
-        phi_offset: 1.7
-        sources:
-          1: null
-          2: null
-          3: Ra
-          4: null
-  generator: ~defines:Pb214_to_Po214
-  confinement: ~volumes.bulk:source_inner_sis1_source3
-  macro_substitutions:
-    HPGE_ENERGY_THRESHOLD: 1.9 MeV
-  primaries_per_job: 100 # ~3 h
   number_of_jobs: 1
+
+# r020 and r021
+sis1_z8580_slot2_Pb214_to_Po214:
+  <<: *sis1_slot3_Ra226
+  sis:
+    1:
+      sis_z: 8580
+
+# simulations with full optical tracking
+# --------------------------------------
+
+# sis1_z8230_slot2_Bi212_to_Pb208_woptics:
+#   template: $_/templates/hpge-ethr-and-optics.mac
+#   geom_config_extra:
+#     sis:
+#       1:
+#         sis_z: 8230
+#         offset: -4.8
+#         phi_offset: 1.7
+#         sources:
+#           1: null
+#           2: Th228
+#           3: null
+#           4: null
+#   generator: ~defines:Bi212_to_Pb208
+#   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
+#   macro_substitutions:
+#     HPGE_ENERGY_THRESHOLD: 1.9 MeV
+#   primaries_per_job: 20_000 # ~3 h
+#   number_of_jobs: 1
+
+# sis1_z8640_slot3_Pb214_to_Po214_woptics:
+#   template: $_/templates/hpge-ethr-and-optics.mac
+#   geom_config_extra:
+#     sis:
+#       1:
+#         sis_z: 8640
+#         offset: -4.8
+#         phi_offset: 1.7
+#         sources:
+#           1: null
+#           2: null
+#           3: Ra
+#           4: null
+#   generator: ~defines:Pb214_to_Po214
+#   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
+#   macro_substitutions:
+#     HPGE_ENERGY_THRESHOLD: 1.9 MeV
+#   primaries_per_job: 100 # ~3 h
+#   number_of_jobs: 1
