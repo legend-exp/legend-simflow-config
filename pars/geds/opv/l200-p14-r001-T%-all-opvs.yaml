@@ -1,0 +1,94 @@
+B00000C:
+  operational_voltage_in_V: 3500
+B00000D:
+  operational_voltage_in_V: 3000
+B00002C:
+  operational_voltage_in_V: 3500
+B00032C:
+  operational_voltage_in_V: 4000
+B00035A:
+  operational_voltage_in_V: 4000
+B00035B:
+  operational_voltage_in_V: 4000
+B00061B:
+  operational_voltage_in_V: 4000
+B00076C:
+  operational_voltage_in_V: 3000
+B00079B:
+  operational_voltage_in_V: 1400
+B00079C:
+  operational_voltage_in_V: 3500
+V00048A:
+  operational_voltage_in_V: 3400
+V00048B:
+  operational_voltage_in_V: 3600
+V00050A:
+  operational_voltage_in_V: 3700
+V00050B:
+  operational_voltage_in_V: 3400
+V01240A:
+  operational_voltage_in_V: 2250
+V01404A:
+  operational_voltage_in_V: 2550
+V02160A:
+  operational_voltage_in_V: 4000
+V02160B:
+  operational_voltage_in_V: 4400
+V02162B:
+  operational_voltage_in_V: 4300
+V03421A:
+  operational_voltage_in_V: 2700
+V03422A:
+  operational_voltage_in_V: 4000
+V04199A:
+  operational_voltage_in_V: 4100
+V04545A:
+  operational_voltage_in_V: 4200
+V04549A:
+  operational_voltage_in_V: 4000
+V05266A:
+  operational_voltage_in_V: 3200
+V05266B:
+  operational_voltage_in_V: 4700
+V05267A:
+  operational_voltage_in_V: 2400
+V05267B:
+  operational_voltage_in_V: 4500
+V05612A:
+  operational_voltage_in_V: 2600
+V06643A:
+  operational_voltage_in_V: 2800
+V06659A:
+  operational_voltage_in_V: 2600
+V07298B:
+  operational_voltage_in_V: 4000
+V07302A:
+  operational_voltage_in_V: 2800
+V07302B:
+  operational_voltage_in_V: 4400
+V07646A:
+  operational_voltage_in_V: 4300
+V07647A:
+  operational_voltage_in_V: 2800
+V07647B:
+  operational_voltage_in_V: 4200
+V08682A:
+  operational_voltage_in_V: 3200
+V08682B:
+  operational_voltage_in_V: 3500
+V09372A:
+  operational_voltage_in_V: 4500
+V09374A:
+  operational_voltage_in_V: 4500
+V09724A:
+  operational_voltage_in_V: 3000
+V10447B:
+  operational_voltage_in_V: 4100
+V10784A:
+  operational_voltage_in_V: 3800
+V11924A:
+  operational_voltage_in_V: 4000
+V11925A:
+  operational_voltage_in_V: 3700
+V11947B:
+  operational_voltage_in_V: 4000

@@ -1,0 +1,22 @@
+B00000D:
+  operational_voltage_in_V: 3000
+B00076C:
+  operational_voltage_in_V: 3000
+P00573B:
+  operational_voltage_in_V: 2000
+P00662A:
+  operational_voltage_in_V: 2300
+P00664A:
+  operational_voltage_in_V: 1200
+V04545A:
+  operational_voltage_in_V: 4000
+V05261B:
+  operational_voltage_in_V: 4500
+V05268A:
+  operational_voltage_in_V: 4000
+V05268B:
+  operational_voltage_in_V: 4100
+V07302A:
+  operational_voltage_in_V: 2800
+V07647B:
+  operational_voltage_in_V: 4200
