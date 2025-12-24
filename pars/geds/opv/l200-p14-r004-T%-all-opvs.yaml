@@ -1,0 +1,46 @@
+B00000D:
+  operational_voltage_in_V: 3500
+B00076C:
+  operational_voltage_in_V: 3500
+V00048A:
+  operational_voltage_in_V: 3400
+V00048B:
+  operational_voltage_in_V: 3600
+V00050A:
+  operational_voltage_in_V: 3400
+V00050B:
+  operational_voltage_in_V: 3500
+V01240A:
+  operational_voltage_in_V: 2350
+V02160A:
+  operational_voltage_in_V: 3500
+V03421A:
+  operational_voltage_in_V: 2600
+V03422A:
+  operational_voltage_in_V: 4100
+V04545A:
+  operational_voltage_in_V: 4200
+V04549A:
+  operational_voltage_in_V: 3800
+V05266B:
+  operational_voltage_in_V: 4750
+V05267A:
+  operational_voltage_in_V: 2400
+V05267B:
+  operational_voltage_in_V: 4700
+V06643A:
+  operational_voltage_in_V: 3000
+V06659A:
+  operational_voltage_in_V: 2800
+V07302A:
+  operational_voltage_in_V: 3100
+V07647A:
+  operational_voltage_in_V: 2700
+V07647B:
+  operational_voltage_in_V: 3900
+V08682A:
+  operational_voltage_in_V: 3400
+V09374A:
+  operational_voltage_in_V: 4000
+V11924A:
+  operational_voltage_in_V: 3700
