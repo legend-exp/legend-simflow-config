@@ -23,6 +23,9 @@
 # do not track optical photons if no energy in germanium
 /RMG/Output/Germanium/DiscardPhotonsIfNoGermaniumEdep
 
+# do not store events with no energy deposition in germanium
+/RMG/Output/Germanium/EdepCutLow 1 eV
+
 # store trackid
 /RMG/Output/Germanium/StoreTrackID true
 /RMG/Output/Scintillator/StoreTrackID true
