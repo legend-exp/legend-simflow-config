@@ -47,8 +47,8 @@ loggers:
     propagate: no
 
   # optional different logging settings than the "root" for our dependent packages
-  pyg4ometry:
-    level: INFO
+  legendsimflow:
+    level: DEBUG
     handlers: [dataflow]
     propagate: no
 
