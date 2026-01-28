@@ -19,8 +19,8 @@ sis1_z8230_slot2_Bi212_to_Pb208: &sis1_slot2_Th228
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 7_000_000
-  number_of_jobs: 15
+  primaries_per_job: 20_000_000
+  number_of_jobs: 5
 
 # r009
 sis1_z8430_slot2_Bi212_to_Pb208:
@@ -61,8 +61,8 @@ sis2_z8300_slot2_Bi212_to_Pb208: &sis2_slot2_Th228
   confinement: ~volumes.bulk:calibration_source_inner_sis2_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 7_000_000
-  number_of_jobs: 15
+  primaries_per_job: 20_000_000
+  number_of_jobs: 5
 
 # r013
 sis2_z8700_slot2_Bi212_to_Pb208:
@@ -89,8 +89,8 @@ sis3_z8450_slot2_Bi212_to_Pb208: &sis3_slot2_Th228
   confinement: ~volumes.bulk:calibration_source_inner_sis3_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 7_000_000
-  number_of_jobs: 15
+  primaries_per_job: 20_000_000
+  number_of_jobs: 5
 
 # r015
 sis3_z8650_slot2_Bi212_to_Pb208:
@@ -117,8 +117,8 @@ sis4_z8230_slot2_Bi212_to_Pb208: &sis4_slot2_Th228
   confinement: ~volumes.bulk:calibration_source_inner_sis4_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 7_000_000
-  number_of_jobs: 15
+  primaries_per_job: 20_000_000
+  number_of_jobs: 5
 
 # r017
 sis4_z8430_slot2_Bi212_to_Pb208:
@@ -155,8 +155,8 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 550 keV
-  primaries_per_job: 5_000_000
-  number_of_jobs: 20
+  primaries_per_job: 10_000_000
+  number_of_jobs: 10
 
 # r020 and r021
 sis1_z8580_slot2_Pb214_to_Po214:
