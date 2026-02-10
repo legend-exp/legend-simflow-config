@@ -52,6 +52,11 @@ loggers:
     handlers: [dataflow]
     propagate: no
 
+  legendsimflow.profile:
+    level: INFO
+    handlers: [dataflow]
+    propagate: no
+
 # this is the default emission level, inherited by all loggers
 root:
   level: INFO
