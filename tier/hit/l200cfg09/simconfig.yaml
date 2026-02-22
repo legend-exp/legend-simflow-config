@@ -1,52 +1,49 @@
 # p16-ssc simulations
 # -------------------
 
-# HACK: there are no runtime differences between all the p16-ssc runs.
-# therefore, we just use the first here
-
 sis1_z8230_slot2_Bi212_to_Pb208:
   runlist:
     - l200-p16-r008-ssc
 
 sis1_z8430_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r009-ssc
 
 sis1_z8630_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r010-ssc
 
 sis1_z8830_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r011-ssc
 
 sis2_z8300_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r012-ssc
 
 sis2_z8700_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r013-ssc
 
 sis3_z8450_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r014-ssc
 
 sis3_z8650_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r015-ssc
 
 sis4_z8230_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r016-ssc
 
 sis4_z8430_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r017-ssc
 
 sis4_z8630_slot2_Bi212_to_Pb208:
   runlist:
-    - l200-p16-r008-ssc
+    - l200-p16-r018-ssc
 
 # p16-rdc simulations
 # -------------------
@@ -57,4 +54,4 @@ sis1_z8640_slot3_Pb214_to_Po214:
 
 sis1_z8580_slot2_Pb214_to_Po214:
   runlist:
-    - l200-p16-r019-rdc
+    - l200-p16-r020-rdc
