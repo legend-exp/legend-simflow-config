@@ -126,7 +126,6 @@
 - valid_from: 20251211T194309Z
   mode: append
   apply:
-
     - l200-p19-r000-T%-all-opvs.yaml
 
 - valid_from: 20251218T191855Z
