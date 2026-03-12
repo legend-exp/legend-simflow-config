@@ -53,12 +53,114 @@
   apply:
     - l200-p14-r005-T%-all-opvs.yaml
 
-- valid_from: 20251006T205904Z
+- valid_from: 20250827T125510Z
   mode: reset
   apply:
-    - l200-p16-r%-T%-all-opvs.yaml
+    - l200-p16-r000-T%-all-opvs.yaml
+
+- valid_from: 20250904T182044Z
+  mode: append
+  apply:
+    - l200-p16-r001-T%-all-opvs.yaml
+
+- valid_from: 20250908T161416Z
+  mode: append
+  apply:
+    - l200-p16-r002-T%-all-opvs.yaml
+
+- valid_from: 20250916T170054Z
+  mode: append
+  apply:
+    - l200-p16-r003-T%-all-opvs.yaml
+
+- valid_from: 20250923T180421Z
+  mode: append
+  apply:
+    - l200-p16-r004-T%-all-opvs.yaml
+
+- valid_from: 20250924T164051Z
+  mode: append
+  apply:
+    - l200-p16-r005-T%-all-opvs.yaml
+
+- valid_from: 20251001T130640Z
+  mode: append
+  apply:
+    - l200-p16-r006-T%-all-opvs.yaml
+
+- valid_from: 20251005T220109Z
+  mode: append
+  apply:
+    - l200-p16-r007-T%-all-opvs.yaml
+
+- valid_from: 20251107T191821Z
+  mode: append
+  apply:
+    - l200-p18-r000-T%-all-opvs.yaml
+
+- valid_from: 20251111T150750Z
+  mode: append
+  apply:
+    - l200-p18-r001-T%-all-opvs.yaml
+
+- valid_from: 20251118T190940Z
+  mode: append
+  apply:
+    - l200-p18-r002-T%-all-opvs.yaml
+
+- valid_from: 20251125T201709Z
+  mode: append
+  apply:
+    - l200-p18-r003-T%-all-opvs.yaml
+
+- valid_from: 20251127T172702Z
+  mode: append
+  apply:
+    - l200-p18-r004-T%-all-opvs.yaml
+
+- valid_from: 20251204T181120Z
+  mode: append
+  apply:
+    - l200-p18-r005-T%-all-opvs.yaml
+
+- valid_from: 20251211T194309Z
+  mode: append
+  apply:
+
+    - l200-p19-r000-T%-all-opvs.yaml
+
+- valid_from: 20251218T191855Z
+  mode: append
+  apply:
+    - l200-p19-r001-T%-all-opvs.yaml
+
+- valid_from: 20251225T162235Z
+  mode: append
+  apply:
+    - l200-p19-r002-T%-all-opvs.yaml
+
+- valid_from: 20260101T163042Z
+  mode: append
+  apply:
+    - l200-p19-r003-T%-all-opvs.yaml
+
+- valid_from: 20260109T171806Z
+  mode: append
+  apply:
+    - l200-p19-r004-T%-all-opvs.yaml
+
+- valid_from: 20260116T191157Z
+  mode: append
+  apply:
+    - l200-p19-r005-T%-all-opvs.yaml
+
+- valid_from: 20260123T143925Z
+  mode: append
+  apply:
+    - l200-p19-r006-T%-all-opvs.yaml
 
 # just a precaution
-- valid_from: 20251031T155315Z
+
+- valid_from: 20260130T160513Z
   mode: reset
   apply: []
