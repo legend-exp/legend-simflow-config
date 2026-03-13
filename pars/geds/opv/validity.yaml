@@ -62,3 +62,15 @@
   mode: append
   apply:
     - l200-p18-r002-T%-all-opvs.yaml
+- valid_from: 20251211T201309Z
+  mode: append
+  apply:
+    - l200-p19-r000-T%-all-opvs.yaml
+- valid_from: 20251218T194855Z
+  mode: append
+  apply:
+    - l200-p19-r001-T%-all-opvs.yaml
+- valid_from: 20260116T194157Z
+  mode: append
+  apply:
+    - l200-p19-r005-T%-all-opvs.yaml
