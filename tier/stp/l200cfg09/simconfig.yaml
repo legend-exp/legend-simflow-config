@@ -2,7 +2,7 @@
 # -------------------
 
 # r008
-sis1_z8230_slot2_Bi212_to_Pb208: &sis1_slot2_Th228
+sis1_z8230_slot2_Pb212_to_Pb208: &sis1_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -15,36 +15,36 @@ sis1_z8230_slot2_Bi212_to_Pb208: &sis1_slot2_Th228
           2: Th228
           3: null
           4: null
-  generator: ~defines:Bi212_to_Pb208
+  generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 20_000_000
-  number_of_jobs: 5
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
 
 # r009
-sis1_z8430_slot2_Bi212_to_Pb208:
+sis1_z8430_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
   sis:
     1:
       sis_z: 8430
 
 # r010
-sis1_z8630_slot2_Bi212_to_Pb208:
+sis1_z8630_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
   sis:
     1:
       sis_z: 8630
 
 # r011
-sis1_z8830_slot2_Bi212_to_Pb208:
+sis1_z8830_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
   sis:
     1:
       sis_z: 8830
 
 # r012
-sis2_z8300_slot2_Bi212_to_Pb208: &sis2_slot2_Th228
+sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -57,22 +57,22 @@ sis2_z8300_slot2_Bi212_to_Pb208: &sis2_slot2_Th228
           2: Th228
           3: null
           4: null
-  generator: ~defines:Bi212_to_Pb208
+  generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis2_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 20_000_000
-  number_of_jobs: 5
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
 
 # r013
-sis2_z8700_slot2_Bi212_to_Pb208:
+sis2_z8700_slot2_Pb212_to_Pb208:
   <<: *sis2_slot2_Th228
   sis:
     2:
       sis_z: 8700
 
 # r014
-sis3_z8450_slot2_Bi212_to_Pb208: &sis3_slot2_Th228
+sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -85,22 +85,22 @@ sis3_z8450_slot2_Bi212_to_Pb208: &sis3_slot2_Th228
           2: Th228
           3: null
           4: null
-  generator: ~defines:Bi212_to_Pb208
+  generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis3_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 20_000_000
-  number_of_jobs: 5
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
 
 # r015
-sis3_z8650_slot2_Bi212_to_Pb208:
+sis3_z8650_slot2_Pb212_to_Pb208:
   <<: *sis3_slot2_Th228
   sis:
     3:
       sis_z: 8650
 
 # r016
-sis4_z8230_slot2_Bi212_to_Pb208: &sis4_slot2_Th228
+sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
@@ -113,22 +113,22 @@ sis4_z8230_slot2_Bi212_to_Pb208: &sis4_slot2_Th228
           2: Th228
           3: null
           4: null
-  generator: ~defines:Bi212_to_Pb208
+  generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis4_slot2
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 450 keV
-  primaries_per_job: 20_000_000
-  number_of_jobs: 5
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
 
 # r017
-sis4_z8430_slot2_Bi212_to_Pb208:
+sis4_z8430_slot2_Pb212_to_Pb208:
   <<: *sis4_slot2_Th228
   sis:
     4:
       sis_z: 8430
 
 # r018
-sis4_z8630_slot2_Bi212_to_Pb208:
+sis4_z8630_slot2_Pb212_to_Pb208:
   <<: *sis4_slot2_Th228
   sis:
     4:
@@ -155,8 +155,8 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
   macro_substitutions:
     HPGE_ENERGY_THRESHOLD: 550 keV
-  primaries_per_job: 10_000_000
-  number_of_jobs: 10
+  primaries_per_job: 4_000_000
+  number_of_jobs: 25
 
 # r020 and r021
 sis1_z8580_slot2_Pb214_to_Po214:
@@ -168,7 +168,7 @@ sis1_z8580_slot2_Pb214_to_Po214:
 # simulations with full optical tracking
 # --------------------------------------
 
-# sis1_z8230_slot2_Bi212_to_Pb208_woptics:
+# sis1_z8230_slot2_Pb212_to_Pb208_woptics:
 #   template: $_/templates/hpge-ethr-and-optics.mac
 #   geom_config_extra:
 #     sis:
@@ -181,7 +181,7 @@ sis1_z8580_slot2_Pb214_to_Po214:
 #           2: Th228
 #           3: null
 #           4: null
-#   generator: ~defines:Bi212_to_Pb208
+#   generator: ~defines:Pb212_to_Pb208
 #   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
 #   macro_substitutions:
 #     HPGE_ENERGY_THRESHOLD: 1.9 MeV
