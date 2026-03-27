@@ -6,7 +6,7 @@ sis1_z8230_slot2_Pb212_to_Pb208: &sis1_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
-      1:
+      1: &sis1_base
         sis_z: 8230
         offset: -4.8
         phi_offset: 1.7
@@ -25,30 +25,36 @@ sis1_z8230_slot2_Pb212_to_Pb208: &sis1_slot2_Th228
 # r009
 sis1_z8430_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
-  sis:
-    1:
-      sis_z: 8430
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8430
 
 # r010
 sis1_z8630_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
-  sis:
-    1:
-      sis_z: 8630
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8630
 
 # r011
 sis1_z8830_slot2_Pb212_to_Pb208:
   <<: *sis1_slot2_Th228
-  sis:
-    1:
-      sis_z: 8830
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8830
 
 # r012
 sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
-      2:
+      2: &sis2_base
         sis_z: 8300
         offset: 0
         phi_offset: 0
@@ -67,16 +73,18 @@ sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
 # r013
 sis2_z8700_slot2_Pb212_to_Pb208:
   <<: *sis2_slot2_Th228
-  sis:
-    2:
-      sis_z: 8700
+  geom_config_extra:
+    sis:
+      2:
+        <<: *sis2_base
+        sis_z: 8700
 
 # r014
 sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
-      3:
+      3: &sis3_base
         sis_z: 8450
         offset: 0
         phi_offset: 0
@@ -95,16 +103,18 @@ sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
 # r015
 sis3_z8650_slot2_Pb212_to_Pb208:
   <<: *sis3_slot2_Th228
-  sis:
-    3:
-      sis_z: 8650
+  geom_config_extra:
+    sis:
+      3:
+        <<: *sis3_base
+        sis_z: 8650
 
 # r016
 sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
-      4:
+      4: &sis4_base
         sis_z: 8230
         offset: 0
         phi_offset: 0
@@ -123,16 +133,20 @@ sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
 # r017
 sis4_z8430_slot2_Pb212_to_Pb208:
   <<: *sis4_slot2_Th228
+  geom_config_extra:
   sis:
     4:
+      <<: *sis4_base
       sis_z: 8430
 
 # r018
 sis4_z8630_slot2_Pb212_to_Pb208:
   <<: *sis4_slot2_Th228
-  sis:
-    4:
-      sis_z: 8630
+  geom_config_extra:
+    sis:
+      4:
+        <<: *sis4_base
+        sis_z: 8630
 
 # p16-rdc simulations
 # -------------------
@@ -142,7 +156,7 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
   template: $_/templates/hpge-ethr.mac
   geom_config_extra:
     sis:
-      1:
+      1: &sis1_ra_base
         sis_z: 8640
         offset: -4.8
         phi_offset: 1.7
@@ -161,9 +175,11 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
 # r020 and r021
 sis1_z8580_slot2_Pb214_to_Po214:
   <<: *sis1_slot3_Ra226
-  sis:
-    1:
-      sis_z: 8580
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_ra_base
+        sis_z: 8580
 
 # simulations with full optical tracking
 # --------------------------------------
