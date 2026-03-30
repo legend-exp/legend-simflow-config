@@ -59,7 +59,7 @@ birds_nest_Pb212_to_Pb208: &Th228
   generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:birds_nest_plate_copper
   primaries_per_job: 1500000
-  number_of_jobs: 14
+  number_of_jobs: 20
 
 hpge_support_copper_Pb212_to_Pb208:
   <<: *Th228
@@ -95,13 +95,13 @@ sipm_arrays_Pb212_to_Pb208:
   <<: *Th228
   confinement: ~volumes.bulk:S.*
   primaries_per_job: 3000000
-  number_of_jobs: 4
+  number_of_jobs: 10
 
 wls_reflector_Pb212_to_Pb208:
   <<: *Th228
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 5000000
-  number_of_jobs: 8
+  number_of_jobs: 15
 
 minishrouds_Pb212_to_Pb208:
   <<: *Th228
@@ -126,7 +126,7 @@ birds_nest_K40: &K40
   generator: ~defines:K40
   confinement: ~volumes.bulk:birds_nest_plate_copper
   primaries_per_job: 6500000
-  number_of_jobs: 4
+  number_of_jobs: 10
 
 hpge_support_copper_K40:
   <<: *K40
@@ -162,13 +162,13 @@ sipm_arrays_K40:
   <<: *K40
   confinement: ~volumes.bulk:S.*
   primaries_per_job: 8500000
-  number_of_jobs: 2
+  number_of_jobs: 5
 
 wls_reflector_K40:
   <<: *K40
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 15000000
-  number_of_jobs: 4
+  number_of_jobs: 10
 
 minishrouds_K40:
   <<: *K40
@@ -193,7 +193,7 @@ birds_nest_Ra228_to_Ac228: &Ac228
   generator: ~defines:Ra228_to_Ac228
   confinement: ~volumes.bulk:birds_nest_plate_copper
   primaries_per_job: 2000000
-  number_of_jobs: 10
+  number_of_jobs: 20
 
 hpge_support_copper_Ra228_to_Ac228:
   <<: *Ac228
@@ -229,13 +229,13 @@ sipm_arrays_Ra228_to_Ac228:
   <<: *Ac228
   confinement: ~volumes.bulk:S.*
   primaries_per_job: 3500000
-  number_of_jobs: 3
+  number_of_jobs: 5
 
 wls_reflector_Ra228_to_Ac228:
   <<: *Ac228
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 6000000
-  number_of_jobs: 8
+  number_of_jobs: 15
 
 minishrouds_Ra228_to_Ac228:
   <<: *Ac228
@@ -260,7 +260,7 @@ birds_nest_Pb214_to_Po214: &U238
   generator: ~defines:Pb214_to_Po214
   confinement: ~volumes.bulk:birds_nest_plate_copper
   primaries_per_job: 1500000
-  number_of_jobs: 14
+  number_of_jobs: 20
 
 hpge_support_copper_Pb214_to_Po214:
   <<: *U238
@@ -296,13 +296,13 @@ sipm_arrays_Pb214_to_Po214:
   <<: *U238
   confinement: ~volumes.bulk:S.*
   primaries_per_job: 2000000
-  number_of_jobs: 5
+  number_of_jobs: 10
 
 wls_reflector_Pb214_to_Po214:
   <<: *U238
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 4000000
-  number_of_jobs: 12
+  number_of_jobs: 20
 
 minishrouds_Pb214_to_Po214:
   <<: *U238
@@ -387,7 +387,7 @@ hpge_support_copper_Mn54:
   primaries_per_job: 3000000
   number_of_jobs: 4
 
-lar_outside_minishroud_K42:
+liquid_argon_outside_minishroud_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
   confinement: >-
@@ -400,7 +400,7 @@ lar_outside_minishroud_K42:
       outer_height_in_mm=3000
     )
   primaries_per_job: 7500000
-  number_of_jobs: 2
+  number_of_jobs: 10
 
 liquid_argon_inside_minishroud_K42:
   template: $_/templates/default.mac
@@ -413,11 +413,11 @@ liquid_argon_inside_minishroud_K42:
       lar_name='liquid_argon'
     )
   primaries_per_job: 2000000
-  number_of_jobs: 5
+  number_of_jobs: 10
 
 liquid_argon_Ar39:
   template: $_/templates/default.mac
   generator: ~defines:Ar39
-  confinement: ~defines:lar_closer_to_array
+  confinement: ~defines:lar_inside_wlsr
   primaries_per_job: 35000000
-  number_of_jobs: 1
+  number_of_jobs: 10
