@@ -28,7 +28,7 @@ hpge_bege_bulk_0vbb:
 
 hpge_V14_bulk_Ge68:
   template: $_/templates/default.mac
-  generator: ~defines:2vbb
+  generator: ~defines:Ge68
   confinement: ~volumes.bulk:^[V14].*
   primaries_per_job: 500000
   number_of_jobs: 20
