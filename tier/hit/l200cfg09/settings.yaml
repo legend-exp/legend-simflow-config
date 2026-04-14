@@ -1,0 +1,7 @@
+# fallback energy resolution for non-ON detectors
+# equivalent to FWHM = 2.5 keV at 2039 keV (Qbb)
+eresmod_default:
+  expression: FWHMLinear
+  parameters:
+    a: 0
+    b: 0.003065
