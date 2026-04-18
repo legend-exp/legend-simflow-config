@@ -1,0 +1,27 @@
+- valid_from: 20230311T235840Z
+  mode: reset
+  apply:
+    - l200-p03-r000-T%-all-opvs.yaml
+- valid_from: 20230611T174328Z
+  mode: append
+  apply:
+    - l200-p06-r000-T%-all-opvs.yaml
+- valid_from: 20230619T134311Z
+  mode: append
+  apply:
+    - l200-p06-r001-T%-all-opvs.yaml
+- valid_from: 20230814T101816Z
+  mode: append
+  apply:
+    - l200-p07-r002-T%-all-opvs.yaml
+- valid_from: 20231109T192557Z
+  mode: append
+  apply:
+    - l200-p08-r006-T%-all-opvs.yaml
+- valid_from: 20240110T233711Z
+  mode: append
+  apply:
+    - l200-p09-r000-T%-all-opvs.yaml
+- valid_from: 20250429T160544Z
+  mode: reset
+  apply: []
