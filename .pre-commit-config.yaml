@@ -21,7 +21,7 @@ repos:
       - id: trailing-whitespace
 
   - repo: https://github.com/codespell-project/codespell
-    rev: "v2.4.1"
+    rev: "v2.4.2"
     hooks:
       - id: codespell
         args: ["-L", "livetime"]
@@ -34,6 +34,6 @@ repos:
         args: [--prose-wrap=always]
 
   - repo: https://github.com/legend-exp/pylegendmeta
-    rev: "v1.4.0"
+    rev: "v1.3.7"
     hooks:
       - id: validate-validity
