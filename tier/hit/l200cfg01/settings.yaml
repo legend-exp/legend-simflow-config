@@ -1,2 +1,24 @@
-dead_layer_fraction: 0.5
 buffer_len: 500*MB
+dead_layer_fraction: 0.5
+
+# fallback energy resolution for non-ON detectors
+# equivalent to FWHM = 2.5 keV at 2039 keV (Qbb)
+eresmod_default:
+  expression: FWHMLinear
+  parameters:
+    a: 0
+    b: 0.003065
+
+# σ_A/E = 0.01 at any energy (SigmaFit with b=0 gives sqrt(a) = constant)
+aoeresmod_default:
+  expression: SigmaFit
+  parameters:
+    a: 0.0001 # sqrt(0.0001) = 0.01 sigma at 2039 keV
+    b: 0
+    c: 1
+
+# conservative defaults matching previous hardcoded values
+psdcuts_default:
+  aoe:
+    low_side: -1.5
+    high_side: 3
