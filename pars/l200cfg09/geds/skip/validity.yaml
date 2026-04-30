@@ -1,3 +1,8 @@
-- valid_from: 20200101T000000Z
+- valid_from: 20250716T000000Z
   apply:
-    - l200-p%-r%-T%-all-skip.yaml
+    - l200-p15-r%-T%-all-skip.yaml
+
+- valid_from: 20251107T191821Z
+  mode: append
+  apply:
+    - l200-p18-r%-T%-all-skip.yaml
