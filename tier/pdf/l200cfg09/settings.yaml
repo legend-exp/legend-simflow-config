@@ -1,1 +1,9 @@
 buffer_len: 500*MB
+
+detector_groups:
+  all: "*"
+  bege: "B.*"
+  icpc: "V.*"
+
+  batch14: "V14.*"
+  not_batch14: "^(?!V14).*"

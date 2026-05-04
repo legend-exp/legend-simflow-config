@@ -1,1 +1,8 @@
 buffer_len: 500*MB
+
+detector_groups:
+  all: "*"
+  icpc: "V.*"
+  bege: "B.*"
+  ppc: "P.*"
+  coax: "C.*"
