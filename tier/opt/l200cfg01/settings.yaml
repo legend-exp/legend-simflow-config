@@ -7,11 +7,11 @@ max_pes_per_hit_combined: 100
 
 # the maps are produced with SiPM PDE = 1
 # here we restore the correct PDE normalization
-map_scaling: 0.3
+optmap_scaling_factor: 0.3
 
 # these numbers are a guess
-photoelectron_res: 0.3
-time_resolution_ns: 16
+photoelectron_resolution_sigma: 0.3
+time_resolution_in_ns: 16
 
 # this needs to be on the low side since there can be many LAr energy
 # depositions in some events (e.g. Tl208)
