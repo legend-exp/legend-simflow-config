@@ -30,8 +30,8 @@ hpge_V14_bulk_Ge68:
   template: $_/templates/default.mac
   generator: ~defines:Ge68
   confinement: ~volumes.bulk:^V14.*
-  primaries_per_job: 500000
-  number_of_jobs: 20
+  primaries_per_job: 5000000
+  number_of_jobs: 2
 
 birds_nest_Pb212_to_Pb208: &Th228
   template: $_/templates/default.mac
