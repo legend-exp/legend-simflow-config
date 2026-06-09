@@ -387,13 +387,13 @@ sis1_z8230_slot2_Pb212_to_Pb208: &sis1_slot2_Th228
     sis:
       1: &sis1_base
         sis_z: 8230
-        offset: -4.8
-        phi_offset: 1.7
+        offset: -5.9
+        phi_offset: 2.0
         sources:
-          1: null
+          1:
           2: Th228
-          3: null
-          4: null
+          3:
+          4:
   generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
   macro_substitutions:
@@ -409,6 +409,8 @@ sis1_z8430_slot2_Pb212_to_Pb208:
       1:
         <<: *sis1_base
         sis_z: 8430
+        offset: -7.5
+        phi_offset: -0.3
 
 # r010
 sis1_z8630_slot2_Pb212_to_Pb208:
@@ -418,6 +420,8 @@ sis1_z8630_slot2_Pb212_to_Pb208:
       1:
         <<: *sis1_base
         sis_z: 8630
+        offset: -7.9
+        phi_offset: -0.3
 
 # r011
 sis1_z8830_slot2_Pb212_to_Pb208:
@@ -427,6 +431,8 @@ sis1_z8830_slot2_Pb212_to_Pb208:
       1:
         <<: *sis1_base
         sis_z: 8830
+        offset: -12.5
+        phi_offset: 1.1
 
 # r012
 sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
@@ -435,13 +441,13 @@ sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
     sis:
       2: &sis2_base
         sis_z: 8300
-        offset: 0
-        phi_offset: 0
+        offset: -5.4
+        phi_offset: -1.1
         sources:
-          1: null
+          1:
           2: Th228
-          3: null
-          4: null
+          3:
+          4:
   generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis2_slot2
   macro_substitutions:
@@ -457,6 +463,8 @@ sis2_z8700_slot2_Pb212_to_Pb208:
       2:
         <<: *sis2_base
         sis_z: 8700
+        offset: -11.7
+        phi_offset: 0.2
 
 # r014
 sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
@@ -465,13 +473,13 @@ sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
     sis:
       3: &sis3_base
         sis_z: 8450
-        offset: 0
-        phi_offset: 0
+        offset: -4.1
+        phi_offset: -3.7
         sources:
-          1: null
+          1:
           2: Th228
-          3: null
-          4: null
+          3:
+          4:
   generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis3_slot2
   macro_substitutions:
@@ -487,6 +495,8 @@ sis3_z8650_slot2_Pb212_to_Pb208:
       3:
         <<: *sis3_base
         sis_z: 8650
+        offset: -3.9
+        phi_offset: -3.4
 
 # r016
 sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
@@ -495,13 +505,13 @@ sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
     sis:
       4: &sis4_base
         sis_z: 8230
-        offset: 0
-        phi_offset: 0
+        offset: -6.6
+        phi_offset: -4.0
         sources:
-          1: null
+          1:
           2: Th228
-          3: null
-          4: null
+          3:
+          4:
   generator: ~defines:Pb212_to_Pb208
   confinement: ~volumes.bulk:calibration_source_inner_sis4_slot2
   macro_substitutions:
@@ -517,6 +527,8 @@ sis4_z8430_slot2_Pb212_to_Pb208:
       4:
         <<: *sis4_base
         sis_z: 8430
+        offset: -11.0
+        phi_offset: -3.6
 
 # r018
 sis4_z8630_slot2_Pb212_to_Pb208:
@@ -526,6 +538,8 @@ sis4_z8630_slot2_Pb212_to_Pb208:
       4:
         <<: *sis4_base
         sis_z: 8630
+        offset: -5.2
+        phi_offset: -3.0
 
 # p16-rdc simulations
 # -------------------
@@ -537,13 +551,13 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
     sis:
       1: &sis1_ra_base
         sis_z: 8640
-        offset: -4.8
-        phi_offset: 1.7
+        offset: -7.9
+        phi_offset: -0.3
         sources:
-          1: null
-          2: null
+          1:
+          2:
           3: Ra
-          4: null
+          4:
   generator: ~defines:Pb214_to_Po214
   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
   macro_substitutions:
@@ -559,6 +573,8 @@ sis1_z8580_slot2_Pb214_to_Po214:
       1:
         <<: *sis1_ra_base
         sis_z: 8580
+        offset: -7.9
+        phi_offset: -0.3
 
 # simulations with full optical tracking
 # --------------------------------------
