@@ -1,0 +1,3 @@
+drift_time_slices: "600:200:2600"
+t0_field: "spms/event_t0"
+end_time_field: "geds/psd/low_aoe/time"
