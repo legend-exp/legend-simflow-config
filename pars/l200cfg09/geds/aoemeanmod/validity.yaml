@@ -1,3 +1,7 @@
+- valid_from: 20250429T160544Z
+  mode: reset
+  apply:
+    - l200-p14-r001-T%-all-aoemean.yaml
 - valid_from: 20250827T125510Z
   mode: reset
   apply:
