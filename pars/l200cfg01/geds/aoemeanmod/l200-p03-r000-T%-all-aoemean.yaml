@@ -1,0 +1,11 @@
+default:
+  single_template:
+    expression: x*a+b
+    pars:
+      a: 0.0
+      b: 1.0
+  psl:
+    expression: x*a+b
+    pars:
+      a: 0.0
+      b: 1.0
