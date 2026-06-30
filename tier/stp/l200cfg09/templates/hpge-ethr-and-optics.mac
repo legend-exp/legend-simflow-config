@@ -24,7 +24,7 @@
 /RMG/Output/Vertex/StoreSinglePrecisionPosition
 
 # do not track optical photons if no energy in germanium
-/RMG/Output/Germanium/DiscardPhotonsIfNoGermaniumEdep
+/RMG/Output/Germanium/DiscardWaitingTracksUnlessGermaniumEdep
 
 # store trackid
 /RMG/Output/Germanium/StoreTrackID true
