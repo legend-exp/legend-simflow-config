@@ -17,3 +17,13 @@ hpge_bege_pplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors B* --surface-type pplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+
+musun_hall_c:
+  command: >-
+    revertex musun-gs --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+    --default-dimensions hall_c
+
+musun_original:
+  command: >-
+    revertex musun-gs --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+    --default-dimensions original

@@ -377,6 +377,14 @@ liquid_argon_Ar39:
   primaries_per_job: 35000000
   number_of_jobs: 10
 
+muon_hall_c:
+  template: $_/templates/muon.mac
+  generator: ~vertices:musun_hall_c
+  primaries_per_job: 1000
+  number_of_jobs: 1
+  macro_substitutions:
+    HADRONIC_PHYSICS: Shielding
+
 # p16-ssc simulations
 # -------------------
 
