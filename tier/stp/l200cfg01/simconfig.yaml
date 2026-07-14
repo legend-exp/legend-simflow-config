@@ -429,3 +429,4 @@ muon_hall_c:
   number_of_jobs: 1
   macro_substitutions:
     HADRONIC_PHYSICS: Shielding
+  custom_G4NDL: G4NDL.4.7.1
