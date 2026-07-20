@@ -2,38 +2,58 @@ hpge_ic_nplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors V* --surface-type nplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_bege_nplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors B* --surface-type nplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_ppc_nplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors P* --surface-type nplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_coax_nplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors P* --surface-type nplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_ic_pplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors V* --surface-type pplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_bege_pplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors B* --surface-type pplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_ppc_pplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors P* --surface-type pplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
 
 hpge_coax_pplus_surface:
   command: >-
     revertex hpge-surf-pos --detectors P* --surface-type pplus --gdml
     {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+  product: positions
+
+musun_hall_c:
+  command: >-
+    revertex musun-gs --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+    --default-dimensions hall_c
+  product: kinematics_and_positions
+
+musun_original:
+  command: >-
+    revertex musun-gs --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+    --default-dimensions original
+  product: kinematics_and_positions
