@@ -6,6 +6,15 @@
 
 /RMG/Processes/HadronicPhysics {HADRONIC_PHYSICS}
 
+# to have event-by-event energy conservation even if not entirely physically correct
+/process/had/particle_hp/use_photo_evaporation True
+
+# recommended according to https://geant4-userdoc.web.cern.ch/UsersGuides/ForApplicationDeveloper/html/TrackingAndPhysics/physicsProcess.html?highlight=particle_hp#high-precision-neutron-interactions-neutronhp
+/process/had/particle_hp/do_not_adjust_final_state True
+/process/had/particle_hp/skip_missin_isotopes True
+
+$MAURINA_GAMMA_CASCADES
+
 # record energy deposited in passive "dead" materials with the calorimeter
 # output scheme.
 # hpge_holding: HPGe support/cabling copper, ultem clamps & insulators, PhBr
