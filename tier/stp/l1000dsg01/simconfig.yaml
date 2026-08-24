@@ -1,0 +1,620 @@
+hpge_icpc_bulk_2vbb:
+  template: $_/templates/default.mac
+  generator: ~defines:2vbb
+  confinement: ~volumes.bulk:^[V].*
+  primaries_per_job: 35000000
+  number_of_jobs: 1
+
+hpge_icpc_bulk_0vbb:
+  template: $_/templates/default.mac
+  generator: ~defines:0vbb
+  confinement: ~volumes.bulk:^[V].*
+  primaries_per_job: 15000000
+  number_of_jobs: 1
+
+hpge_bege_bulk_2vbb:
+  template: $_/templates/default.mac
+  generator: ~defines:2vbb
+  confinement: ~volumes.bulk:^[B].*
+  primaries_per_job: 35000000
+  number_of_jobs: 1
+
+hpge_bege_bulk_0vbb:
+  template: $_/templates/default.mac
+  generator: ~defines:0vbb
+  confinement: ~volumes.bulk:^[B].*
+  primaries_per_job: 20000000
+  number_of_jobs: 1
+
+hpge_V14_bulk_Ge68:
+  template: $_/templates/default.mac
+  generator: ~defines:Ge68
+  confinement: ~volumes.bulk:^V14.*
+  primaries_per_job: 5000000
+  number_of_jobs: 2
+
+birds_nest_Pb212_to_Pb208: &Th228
+  template: $_/templates/default.mac
+  generator: ~defines:Pb212_to_Pb208
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1500000
+  number_of_jobs: 100
+
+hpge_support_copper_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_string_support_rod_copper_string.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+ultem_insulators_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+front_end_electronics_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_assembly_lmfe_.*
+  primaries_per_job: 400000
+  number_of_jobs: 25
+
+cables_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_cable_.*
+  primaries_per_job: 650000
+  number_of_jobs: 16
+
+pen_plates_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+sipm_arrays_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 3000000
+  number_of_jobs: 100
+
+wls_reflector_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:wlsr_.*
+  primaries_per_job: 5000000
+  number_of_jobs: 100
+
+minishrouds_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:minishroud_.*
+  primaries_per_job: 2500000
+  number_of_jobs: 4
+
+fibers_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:fiber_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+fiber_support_copper_Pb212_to_Pb208:
+  <<: *Th228
+  confinement: ~volumes.bulk:larinstr_support_.*
+  primaries_per_job: 4500000
+  number_of_jobs: 3
+
+birds_nest_K40: &K40
+  template: $_/templates/default.mac
+  generator: ~defines:K40
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 6500000
+  number_of_jobs: 10
+
+hpge_support_copper_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+  primaries_per_job: 5500000
+  number_of_jobs: 2
+
+ultem_insulators_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+  primaries_per_job: 4000000
+  number_of_jobs: 3
+
+front_end_electronics_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_assembly_lmfe_.*
+  primaries_per_job: 600000
+  number_of_jobs: 17
+
+cables_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_cable_.*
+  primaries_per_job: 900000
+  number_of_jobs: 12
+
+pen_plates_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+  primaries_per_job: 2500000
+  number_of_jobs: 4
+
+sipm_arrays_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 8500000
+  number_of_jobs: 100
+
+wls_reflector_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:wlsr_.*
+  primaries_per_job: 15000000
+  number_of_jobs: 100
+
+minishrouds_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:minishroud_.*
+  primaries_per_job: 5500000
+  number_of_jobs: 2
+
+fibers_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:fiber_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+fiber_support_copper_K40:
+  <<: *K40
+  confinement: ~volumes.bulk:larinstr_support_.*
+  primaries_per_job: 20000000
+  number_of_jobs: 1
+
+birds_nest_Ra228_to_Ac228: &Ac228
+  template: $_/templates/default.mac
+  generator: ~defines:Ra228_to_Ac228
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 2000000
+  number_of_jobs: 100
+
+hpge_support_copper_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+ultem_insulators_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+  primaries_per_job: 2500000
+  number_of_jobs: 4
+
+front_end_electronics_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_assembly_lmfe_.*
+  primaries_per_job: 750000
+  number_of_jobs: 14
+
+cables_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_cable_.*
+  primaries_per_job: 1000000
+  number_of_jobs: 10
+
+pen_plates_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+sipm_arrays_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 3500000
+  number_of_jobs: 100
+
+wls_reflector_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:wlsr_.*
+  primaries_per_job: 6000000
+  number_of_jobs: 100
+
+minishrouds_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:minishroud_.*
+  primaries_per_job: 3000000
+  number_of_jobs: 4
+
+fibers_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:fiber_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+fiber_support_copper_Ra228_to_Ac228:
+  <<: *Ac228
+  confinement: ~volumes.bulk:larinstr_support_.*
+  primaries_per_job: 5500000
+  number_of_jobs: 2
+
+birds_nest_Pb214_to_Po214: &U238
+  template: $_/templates/default.mac
+  generator: ~defines:Pb214_to_Po214
+  confinement: ~volumes.bulk:birds_nest_plate_copper
+  primaries_per_job: 1500000
+  number_of_jobs: 100
+
+hpge_support_copper_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+  primaries_per_job: 1000000
+  number_of_jobs: 10
+
+ultem_insulators_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+front_end_electronics_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_assembly_lmfe_.*
+  primaries_per_job: 350000
+  number_of_jobs: 29
+
+cables_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_cable_.*
+  primaries_per_job: 550000
+  number_of_jobs: 19
+
+pen_plates_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
+  primaries_per_job: 1000000
+  number_of_jobs: 10
+
+sipm_arrays_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:S.*
+  primaries_per_job: 2000000
+  number_of_jobs: 100
+
+wls_reflector_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:wlsr_.*
+  primaries_per_job: 4000000
+  number_of_jobs: 100
+
+minishrouds_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:minishroud_.*
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+fibers_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:fiber_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+fiber_support_copper_Pb214_to_Po214:
+  <<: *U238
+  confinement: ~volumes.bulk:larinstr_support_.*
+  primaries_per_job: 3500000
+  number_of_jobs: 3
+
+hpge_bege_nplus_surface_K42: &K42
+  generator: ~defines:K42
+  template: $_/templates/step_limits.mac
+  confinement: ~vertices:hpge_bege_nplus_surface
+  macro_substitutions:
+    STEP_SIZE: 20 um
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+hpge_ic_nplus_surface_K42:
+  <<: *K42
+  confinement: ~vertices:hpge_ic_nplus_surface
+  primaries_per_job: 2000000
+  number_of_jobs: 5
+
+hpge_bege_pplus_surface_K42:
+  <<: *K42
+  confinement: ~vertices:hpge_bege_pplus_surface
+  primaries_per_job: 1000000
+  number_of_jobs: 10
+
+hpge_ic_pplus_surface_K42:
+  <<: *K42
+  confinement: ~vertices:hpge_ic_pplus_surface
+  primaries_per_job: 1000000
+  number_of_jobs: 10
+
+hpge_support_copper_Co60:
+  template: $_/templates/default.mac
+  generator: ~defines:Co60
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+  primaries_per_job: 1500000
+  number_of_jobs: 7
+
+hpge_support_copper_Mn54:
+  template: $_/templates/default.mac
+  generator: ~defines:Mn54
+  confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
+  primaries_per_job: 3000000
+  number_of_jobs: 4
+
+liquid_argon_outside_minishroud_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: >-
+    ~function:legendsimflow.confine.get_lar_minishroud_confine_commands(
+      <...>,
+      'minishroud_tube*',
+      False,
+      lar_name='liquid_argon',
+      outer_radius_in_mm=1000,
+      outer_height_in_mm=3000
+    )
+  primaries_per_job: 7500000
+  number_of_jobs: 10
+
+liquid_argon_inside_minishroud_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: >-
+    ~function:legendsimflow.confine.get_lar_minishroud_confine_commands(
+      <...>,
+      'minishroud_tube*',
+      True,
+      lar_name='liquid_argon'
+    )
+  primaries_per_job: 2000000
+  number_of_jobs: 10
+
+liquid_argon_Ar39:
+  template: $_/templates/default.mac
+  generator: ~defines:Ar39
+  confinement: ~defines:lar_inside_wlsr
+  primaries_per_job: 35000000
+  number_of_jobs: 10
+
+# p16-ssc simulations
+# -------------------
+
+# r008
+sis1_z8230_slot2_Pb212_to_Pb208: &sis1_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      1: &sis1_base
+        sis_z: 8230
+        offset: -5.9
+        phi_offset: 2.0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+  generator: ~defines:Pb212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
+
+# r009
+sis1_z8430_slot2_Pb212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8430
+        offset: -7.5
+        phi_offset: -0.3
+
+# r010
+sis1_z8630_slot2_Pb212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8630
+        offset: -7.9
+        phi_offset: -0.3
+
+# r011
+sis1_z8830_slot2_Pb212_to_Pb208:
+  <<: *sis1_slot2_Th228
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_base
+        sis_z: 8830
+        offset: -12.5
+        phi_offset: 1.1
+
+# r012
+sis2_z8300_slot2_Pb212_to_Pb208: &sis2_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      2: &sis2_base
+        sis_z: 8300
+        offset: -5.4
+        phi_offset: -1.1
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+  generator: ~defines:Pb212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis2_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
+
+# r013
+sis2_z8700_slot2_Pb212_to_Pb208:
+  <<: *sis2_slot2_Th228
+  geom_config_extra:
+    sis:
+      2:
+        <<: *sis2_base
+        sis_z: 8700
+        offset: -11.7
+        phi_offset: 0.2
+
+# r014
+sis3_z8450_slot2_Pb212_to_Pb208: &sis3_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      3: &sis3_base
+        sis_z: 8450
+        offset: -4.1
+        phi_offset: -3.7
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+  generator: ~defines:Pb212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis3_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
+
+# r015
+sis3_z8650_slot2_Pb212_to_Pb208:
+  <<: *sis3_slot2_Th228
+  geom_config_extra:
+    sis:
+      3:
+        <<: *sis3_base
+        sis_z: 8650
+        offset: -3.9
+        phi_offset: -3.4
+
+# r016
+sis4_z8230_slot2_Pb212_to_Pb208: &sis4_slot2_Th228
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      4: &sis4_base
+        sis_z: 8230
+        offset: -6.6
+        phi_offset: -4.0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+  generator: ~defines:Pb212_to_Pb208
+  confinement: ~volumes.bulk:calibration_source_inner_sis4_slot2
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 450 keV
+  primaries_per_job: 5_000_000
+  number_of_jobs: 15
+
+# r017
+sis4_z8430_slot2_Pb212_to_Pb208:
+  <<: *sis4_slot2_Th228
+  geom_config_extra:
+    sis:
+      4:
+        <<: *sis4_base
+        sis_z: 8430
+        offset: -11.0
+        phi_offset: -3.6
+
+# r018
+sis4_z8630_slot2_Pb212_to_Pb208:
+  <<: *sis4_slot2_Th228
+  geom_config_extra:
+    sis:
+      4:
+        <<: *sis4_base
+        sis_z: 8630
+        offset: -5.2
+        phi_offset: -3.0
+
+# p16-rdc simulations
+# -------------------
+
+# r019
+sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
+  template: $_/templates/hpge-ethr.mac
+  geom_config_extra:
+    sis:
+      1: &sis1_ra_base
+        sis_z: 8640
+        offset: -7.9
+        phi_offset: -0.3
+        sources:
+          1:
+          2:
+          3: Ra
+          4:
+  generator: ~defines:Pb214_to_Po214
+  confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
+  macro_substitutions:
+    HPGE_ENERGY_THRESHOLD: 550 keV
+  primaries_per_job: 4_000_000
+  number_of_jobs: 25
+
+# r020 and r021
+sis1_z8580_slot2_Pb214_to_Po214:
+  <<: *sis1_slot3_Ra226
+  geom_config_extra:
+    sis:
+      1:
+        <<: *sis1_ra_base
+        sis_z: 8580
+        offset: -7.9
+        phi_offset: -0.3
+
+# simulations with full optical tracking
+# --------------------------------------
+
+# sis1_z8230_slot2_Pb212_to_Pb208_woptics:
+#   template: $_/templates/hpge-ethr-and-optics.mac
+#   geom_config_extra:
+#     sis:
+#       1:
+#         sis_z: 8230
+#         offset: -4.8
+#         phi_offset: 1.7
+#         sources:
+#           1: null
+#           2: Th228
+#           3: null
+#           4: null
+#   generator: ~defines:Pb212_to_Pb208
+#   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
+#   macro_substitutions:
+#     HPGE_ENERGY_THRESHOLD: 1.9 MeV
+#   primaries_per_job: 20_000 # ~3 h
+#   number_of_jobs: 1
+
+# sis1_z8640_slot3_Pb214_to_Po214_woptics:
+#   template: $_/templates/hpge-ethr-and-optics.mac
+#   geom_config_extra:
+#     sis:
+#       1:
+#         sis_z: 8640
+#         offset: -4.8
+#         phi_offset: 1.7
+#         sources:
+#           1: null
+#           2: null
+#           3: Ra
+#           4: null
+#   generator: ~defines:Pb214_to_Po214
+#   confinement: ~volumes.bulk:calibration_source_inner_sis1_slot3
+#   macro_substitutions:
+#     HPGE_ENERGY_THRESHOLD: 1.9 MeV
+#   primaries_per_job: 100 # ~3 h
+#   number_of_jobs: 1
