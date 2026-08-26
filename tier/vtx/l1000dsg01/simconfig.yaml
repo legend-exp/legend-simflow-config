@@ -1,0 +1,9 @@
+hpge_ic_nplus_surface:
+  command: >-
+    revertex hpge-surf-pos --detectors V* --surface-type nplus --gdml
+    {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
+
+hpge_ic_pplus_surface:
+  command: >-
+    revertex hpge-surf-pos --detectors V* --surface-type pplus --gdml
+    {GDML_FILE} --out-file {OUTPUT_FILE} --n-events {N_EVENTS}
