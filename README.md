@@ -25,6 +25,14 @@ Repository to store all the necessary config files for running the
   detectors. The validity of the metadata is implemented through the standard
   LEGEND validity format.
 
+- `metadata`: _fallback metadata_ for experiments that are not described in
+  [legend-metadata](https://github.com/legend-exp/legend-metadata), such as
+  LEGEND-1000. The first directory level is the name of the experiment. Below
+  it, the layout and the file format are the same as in legend-metadata, so that
+  the usual queries (channel maps, run information, detector data, ...) work
+  unchanged. Simflow reads this directory only when legend-metadata does not
+  provide the requested parameter.
+
 ## Experiments
 
 The metadata in the `tier` directory is organized by experimental configuration,

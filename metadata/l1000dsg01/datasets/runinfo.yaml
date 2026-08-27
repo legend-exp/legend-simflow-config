@@ -1,0 +1,7 @@
+p99:
+  r000:
+    cal:
+      start_key: 20000101T000000Z
+    phy:
+      start_key: 20000102T000000Z
+      livetime_in_s: 315576000.0

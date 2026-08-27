@@ -39,6 +39,9 @@ The following files configure:
       (static);
     - `superpulses/`: settings for the construction of average waveforms from
       data;
+- `metadata/<exp>/`: fallback metadata, read by Simflow only when
+  legend-metadata does not provide the queried parameter; same directory layout
+  and file format as legend-metadata;
 - `tier/<exp>/`: settings for each tier in the Simflow;
 
 ## Checks
