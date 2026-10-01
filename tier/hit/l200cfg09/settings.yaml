@@ -25,3 +25,17 @@ psdcuts_default:
   aoe:
     low_side: -1.5
     high_side: 3
+
+# fallback A/E mean energy-dependence correction for detectors without a
+# computed override; identity (a * x + b with a=0, b=1) leaves A/E untouched
+aoemeanmod_default:
+  single_template:
+    expression: a * x + b
+    pars:
+      a: 0
+      b: 1
+  psl:
+    expression: a * x + b
+    pars:
+      a: 0
+      b: 1
