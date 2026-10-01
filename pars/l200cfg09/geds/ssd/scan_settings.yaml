@@ -1,0 +1,7 @@
+# grid of the HPGe impurity-curve scan, as Julia ranges "start:step:stop"
+
+# depletion voltages to simulate, as a shift from the operational voltage, in V
+depv_shift: "-1000:20:-20"
+# scaling factor applied to the non-constant part of the impurity profile,
+# dimensionless (0 leaves the profile as stored in the metadata)
+slope: "-0.9:0.2:3.0"
