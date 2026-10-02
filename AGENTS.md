@@ -31,7 +31,6 @@ The following files configure:
     - `currmod/`: parameters of the current signal model for the
       single-template-based PSD simulation;
     - `elecmod/`: parameters of the electronics chain model;
-    - `opv/`: operational voltages of the detectors;
     - `psdcuts/`: cut values for the PSD classifiers;
     - `skip/`: detectors for which PSD modeling should be skipped (e.g. because
       it's not possible to simulate them);
