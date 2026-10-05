@@ -1,0 +1,21 @@
+Ar39:
+  - /RMG/Generator/Select GPS
+  - /gps/particle ion
+  - /gps/energy 0 eV
+  - /gps/ion 18 39
+
+# Cs137 -> Ba137m -> Ba137, so the 662 keV gamma is produced
+Cs137:
+  - /RMG/Generator/Select GPS
+  - /gps/particle ion
+  - /gps/energy 0 eV
+  - /gps/ion 55 137
+  - /process/had/rdm/nucleusLimits 137 137 55 56
+
+# the Th228 chain from Pb212 on, the part that produces prompt light
+Pb212_to_Pb208:
+  - /RMG/Generator/Select GPS
+  - /gps/particle ion
+  - /gps/energy 0 eV
+  - /gps/ion 82 212
+  - /process/had/rdm/nucleusLimits 208 212 81 83

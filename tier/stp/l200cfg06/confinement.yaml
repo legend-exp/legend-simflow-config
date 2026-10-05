@@ -1,0 +1,11 @@
+lar_inside_wlsr:
+  - /RMG/Generator/Confine Volume
+  - /RMG/Generator/Confinement/SamplingMode IntersectPhysicalWithGeometrical
+  - /RMG/Generator/Confinement/Physical/AddVolume liquid_argon
+  - /RMG/Generator/Confinement/Geometrical/AddSolid Cylinder
+  - /RMG/Generator/Confinement/Geometrical/CenterPositionX 0 m
+  - /RMG/Generator/Confinement/Geometrical/CenterPositionY 0 m
+  - /RMG/Generator/Confinement/Geometrical/CenterPositionZ 0 m
+  - /RMG/Generator/Confinement/Geometrical/Cylinder/InnerRadius 0 m
+  - /RMG/Generator/Confinement/Geometrical/Cylinder/OuterRadius 0.7 m
+  - /RMG/Generator/Confinement/Geometrical/Cylinder/Height 3.78 m

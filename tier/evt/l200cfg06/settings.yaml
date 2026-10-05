@@ -1,0 +1,12 @@
+skip_hit: true
+
+add_random_coincidences: true
+geds_energy_thr_kev: 25
+spms_energy_thr_pe: 0
+buffer_len: 50*MB
+
+random_coincidence_mode: noise_trigger
+random_coincidence_runid:
+  l200-p13-r003-aph: l200-p13-r003-anp
+  l200-p13-r006-acs: l200-p13-r006-anc
+  l200-p13-r008-ath: l200-p13-r008-ant
