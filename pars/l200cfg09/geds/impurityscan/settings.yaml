@@ -3,7 +3,7 @@ drift_time_scan:
   # events depositing less energy in the active volume are dropped, in keV
   min_energy_in_keV: 1500
   # maximum number of events per detector and simid (null: all)
-  max_events: null
+  max_events: 10_000
 
 # fit of the drift-time distributions of data and simulations
 impurity_fit:
