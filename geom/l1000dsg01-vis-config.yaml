@@ -1,0 +1,17 @@
+window_size: [1600, 2600]
+fine_mesh: true
+
+light:
+  pos: [-10000, 0, 10000]
+  shadow: true
+
+default:
+  focus: [0, 0, 0]
+  up: [0, 0, 1]
+  camera: [-6000, -2100, 2700]
+  parallel: false
+
+color_overrides:
+  cryostat_steel: false
+  liquid_argon: false
+  gaseous_argon: false
