@@ -1,0 +1,22 @@
+# simulated drift times at each point of the impurity-curve scan
+drift_time_scan:
+  # events depositing less energy in the active volume are dropped, in keV
+  min_energy_in_keV: 1500
+  # maximum number of events per detector and simid (null: all)
+  max_events: 10_000
+
+# fit of the drift-time distributions of data and simulations
+impurity_fit:
+  # energy window of the data and simulated events, in keV. It must not start
+  # below drift_time_scan.min_energy_in_keV
+  energy_range_in_keV: [1500, 2500]
+  # uncertainty on the drift-time observables in the chi2, in ns
+  drift_time_uncertainty_in_ns: 50
+  waveform_uncertainty: 0.5
+  drift_time_observables:
+    # upper observable: percentile of the drift-time distribution, in percent
+    percentile: 90
+    # standard deviation of the Gaussian smoothing of the histogram, in ns
+    smoothing_in_ns: 50
+    # lower observable: first peak higher than this fraction of the maximum
+    min_peak_fraction: 0.25
