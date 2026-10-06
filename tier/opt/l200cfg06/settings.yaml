@@ -1,0 +1,66 @@
+scintillator_volume_name: liquid_argon
+optmap_per_sipm: true
+
+# these values are not tuned to a particular value
+max_pes_per_hit_per_sipm: 5
+max_pes_per_hit_combined: 100
+
+# the maps are produced with SiPM PDE = 1; this factor is the photon detection
+# efficiency, per channel from a two-window Ar39 fit, 0.3 where none was fitted.
+optmap_scaling_factor:
+  default: 0.3
+  S002: 0.301
+  S003: 0.3558
+  S007: 0.4186
+  S008: 0.4249
+  S011: 0.3725
+  S012: 0.4121
+  S015: 0.4177
+  S017: 0.4066
+  S020: 0.4958
+  S023: 0.2968
+  S025: 0.5168
+  S026: 0.5159
+  S029: 0.3308
+  S030: 0.475
+  S031: 0.4619
+  S032: 0.2034
+  S036: 0.2897
+  S037: 0.3818
+  S040: 0.3674
+  S041: 0.4805
+  S042: 0.2499
+  S043: 0.2863
+  S046: 0.3563
+  S047: 0.5031
+  S048: 0.4306
+  S049: 0.4299
+  S050: 0.3502
+  S051: 0.4365
+  S052: 0.5001
+  S053: 0.4592
+  S055: 0.4968
+  S057: 0.2167
+  S061: 0.2622
+  S065: 0.3455
+  S068: 0.516
+  S071: 0.3213
+  S073: 0.2633
+  S082: 0.4428
+  S083: 0.1651
+  S086: 0.4179
+  S087: 0.386
+  S090: 0.1921
+  S094: 0.3582
+  S095: 0.1342
+  S096: 0.2415
+  S098: 0.3597
+  S099: 0.4132
+
+# these numbers are a guess
+photoelectron_resolution_sigma: 0.3
+time_resolution_in_ns: 16
+
+# this needs to be on the low side since there can be many LAr energy
+# depositions in some events
+buffer_len: 10*MB
