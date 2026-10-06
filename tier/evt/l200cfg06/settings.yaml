@@ -1,8 +1,6 @@
 skip_hit: true
 
 add_random_coincidences: true
-# never used here, but tier/evt.py reads it even with skip_hit
-geds_energy_thr_kev: 25
 spms_energy_thr_pe: 0
 buffer_len: 50*MB
 
