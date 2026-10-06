@@ -1,0 +1,53 @@
+liquid_argon_Ar39:
+  runlist:
+    - l200-p13-r003-aph
+
+sis1_z7820_slot2_Cs137: &acs
+  runlist:
+    - l200-p13-r006-acs
+
+sis1_z7820_slot2_Pb212_to_Pb208: &ath
+  runlist:
+    - l200-p13-r008-ath
+
+sis1_z7970_slot2_Cs137:
+  <<: *acs
+
+sis1_z7970_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8120_slot2_Cs137:
+  <<: *acs
+
+sis1_z8120_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8270_slot2_Cs137:
+  <<: *acs
+
+sis1_z8270_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8420_slot2_Cs137:
+  <<: *acs
+
+sis1_z8420_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8570_slot2_Cs137:
+  <<: *acs
+
+sis1_z8570_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8720_slot2_Cs137:
+  <<: *acs
+
+sis1_z8720_slot2_Pb212_to_Pb208:
+  <<: *ath
+
+sis1_z8870_slot2_Cs137:
+  <<: *acs
+
+sis1_z8870_slot2_Pb212_to_Pb208:
+  <<: *ath

@@ -1,0 +1,171 @@
+liquid_argon_Ar39:
+  template: $_/templates/lar-instr-only.mac
+  generator: ~defines:Ar39
+  confinement: ~defines:lar_inside_wlsr
+  primaries_per_job: 1_000_000
+  number_of_jobs: 4
+
+# The Cs137 capsule has the same geometry as the Th228 one, so every source slot below is
+# declared Th228; which isotope is simulated comes from the generator.
+sis1_z7820_slot2_Cs137: &cs7820
+  template: $_/templates/lar-instr-only.mac
+  generator: ~defines:Cs137
+  confinement: ~volumes.bulk:calibration_source_inner_sis1_slot2
+  primaries_per_job: 1_000_000
+  number_of_jobs: 8
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 7820
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z7820_slot2_Pb212_to_Pb208:
+  <<: *cs7820
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z7970_slot2_Cs137: &cs7970
+  <<: *cs7820
+  number_of_jobs: 4
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 7970
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z7970_slot2_Pb212_to_Pb208:
+  <<: *cs7970
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8120_slot2_Cs137: &cs8120
+  <<: *cs7820
+  number_of_jobs: 4
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8120
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8120_slot2_Pb212_to_Pb208:
+  <<: *cs8120
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8270_slot2_Cs137: &cs8270
+  <<: *cs7820
+  number_of_jobs: 2
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8270
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8270_slot2_Pb212_to_Pb208:
+  <<: *cs8270
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8420_slot2_Cs137: &cs8420
+  <<: *cs7820
+  number_of_jobs: 2
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8420
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8420_slot2_Pb212_to_Pb208:
+  <<: *cs8420
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8570_slot2_Cs137: &cs8570
+  <<: *cs7820
+  number_of_jobs: 2
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8570
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8570_slot2_Pb212_to_Pb208:
+  <<: *cs8570
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8720_slot2_Cs137: &cs8720
+  <<: *cs7820
+  number_of_jobs: 2
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8720
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8720_slot2_Pb212_to_Pb208:
+  <<: *cs8720
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
+
+sis1_z8870_slot2_Cs137: &cs8870
+  <<: *cs7820
+  number_of_jobs: 2
+  geom_config_extra:
+    sis:
+      1:
+        sis_z: 8870
+        offset: 0
+        phi_offset: 0
+        sources:
+          1:
+          2: Th228
+          3:
+          4:
+
+sis1_z8870_slot2_Pb212_to_Pb208:
+  <<: *cs8870
+  generator: ~defines:Pb212_to_Pb208
+  number_of_jobs: 2
