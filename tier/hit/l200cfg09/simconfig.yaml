@@ -52,6 +52,6 @@ sis1_z8640_slot3_Pb214_to_Po214:
   runlist:
     - l200-p16-r019-rdc
 
-sis1_z8580_slot2_Pb214_to_Po214:
+sis1_z8580_slot3_Pb214_to_Po214:
   runlist:
     - l200-p16-r020-rdc

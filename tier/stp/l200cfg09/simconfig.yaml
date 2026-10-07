@@ -551,6 +551,7 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
     sis:
       1: &sis1_ra_base
         sis_z: 8640
+        # offsets taken from r010 (z8630)
         offset: -7.9
         phi_offset: -0.3
         sources:
@@ -566,13 +567,14 @@ sis1_z8640_slot3_Pb214_to_Po214: &sis1_slot3_Ra226
   number_of_jobs: 25
 
 # r020 and r021
-sis1_z8580_slot2_Pb214_to_Po214:
+sis1_z8580_slot3_Pb214_to_Po214:
   <<: *sis1_slot3_Ra226
   geom_config_extra:
     sis:
       1:
         <<: *sis1_ra_base
         sis_z: 8580
+        # offsets taken from r010 (z8630)
         offset: -7.9
         phi_offset: -0.3
 
