@@ -1,0 +1,11 @@
+# tau_start, tau_limits and max_calls are not set: the electronics-response
+# fit and its impurity-scan version use different defaults for them
+angle: "000"
+sigma_start: 10.0
+sigma_limits: [1.0, 50.0]
+comparison_window: [-500.0, 500.0]
+plot_window: [-600.0, 600.0]
+weight_power: 2.0
+dt_range_tuning: [600.0, 3000.0]
+max_num_superpulses: 5
+minimiser_mode: simplex
