@@ -1,3 +1,4 @@
+build_per_runid: false
 min_number_wfs: 10
 target_wfs: 100
 chi2_threshold: 3
