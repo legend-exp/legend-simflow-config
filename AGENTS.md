@@ -26,7 +26,8 @@ The following files configure:
   `legend-pygeom-l200` and `legend-pygeom-l1000` Python packages;
 - `pars/<exp>/`: parameters of the simulation;
   - `geds/`: parameters for HPGe detectors;
-    - `aoemeanmod/`: parameters of the energy dependence of the mean A/E;
+    - `aoemeanmod/`: settings of the fit of the energy dependence of the mean
+      A/E (the Simflow computes the parameters);
     - `aoeresmod/`: parameters of the energy dependence of the A/E resolution;
     - `currmod/`: parameters of the current signal model for the
       single-template-based PSD simulation;
