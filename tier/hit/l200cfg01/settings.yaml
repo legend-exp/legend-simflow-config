@@ -1,6 +1,10 @@
 buffer_len: 500*MB
 dead_layer_fraction: 0.5
 
+simulate_psd: true
+simulate_psd_with_psl: false
+tune_hpge_impurities_on_data: false
+
 # fallback energy resolution for non-ON detectors
 # equivalent to FWHM = 2.5 keV at 2039 keV (Qbb)
 eresmod_default:
