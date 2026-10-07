@@ -1,7 +1,6 @@
 buffer_len: 500*MB
 
 detector_groups:
-  all: "*"
   bege: "B.*"
   icpc: "V.*"
 
