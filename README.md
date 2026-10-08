@@ -69,6 +69,10 @@ The naming convention is `l200cfgNN`, where `cfg` stands for "configuration" and
 - `l200cfg09`: 138 kg HPGe array. Data taking period from p15 (start: July 2025)
   onwards.
 
+- `l200cfg09_ssc`: same as `cfg09`, but it also fits the energy dependence of
+  the mean A/E of each HPGe detector to the Th228 calibration source simulations
+  (`two_pass_aoe_correction`).
+
 ### LEGEND-1000
 
 The naming convention is `l1000cfgNN`, where `cfg` stands for "configuration"
