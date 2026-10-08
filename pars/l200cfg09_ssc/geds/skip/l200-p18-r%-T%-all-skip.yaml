@@ -1,0 +1,3 @@
+V10784A: |
+  Detector is biased at 3600 V but according to SSD it depletes at ~3707 V.
+  Although it looks depleted in LEGEND-200 in-situ HV scan.
