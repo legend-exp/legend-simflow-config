@@ -1,7 +1,7 @@
 buffer_len: 500*MB
 
 detector_groups:
-  all: "*"
+  all: ".*"
   icpc: "V.*"
   bege: "B.*"
   ppc: "P.*"

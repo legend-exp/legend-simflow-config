@@ -1,4 +1,0 @@
-- valid_from: 20230311T235840Z
-  mode: reset
-  apply:
-    - l200-p03-r000-T%-all-aoemean.yaml

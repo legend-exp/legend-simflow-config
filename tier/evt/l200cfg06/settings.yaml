@@ -2,6 +2,8 @@ skip_hit: true
 
 add_random_coincidences: true
 spms_energy_thr_pe: 0
+lar_veto_multiplicity_thr: 4
+lar_veto_energy_sum_pe_thr: 4
 buffer_len: 50*MB
 
 random_coincidence_mode: noise_trigger

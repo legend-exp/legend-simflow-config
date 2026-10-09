@@ -1,5 +1,6 @@
 scintillator_volume_name: liquid_argon
 optmap_per_sipm: true
+store_expected_pes: true
 
 # these values are not tuned to a particular value
 max_pes_per_hit_per_sipm: 5

@@ -1,3 +1,12 @@
+build_per_runid: true
+min_number_wfs: 10
+target_wfs: 100
+chi2_threshold: 3
+max_files: null
+evt_tier_name: auto
+charge_output: wf_pz_win
+curr_output: curr_av
+energy_output: cuspEmax
 drift_time_slices: "600:200:2600"
-t0_field: "spms/event_t0"
-end_time_field: "geds/psd/low_aoe/time"
+t0_field: spms/event_t0
+end_time_field: geds/psd/low_aoe/time
