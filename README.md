@@ -36,38 +36,7 @@ labels currently supported are documented below.
 ### LEGEND-200
 
 The naming convention is `l200cfgNN`, where `cfg` stands for "configuration" and
-`NN` is a zero-padded integer.
-
-- `l200cfg01`: first LEGEND-200 configuration with 142 kg of enriched germanium.
-  Data taking periods p03 (start: March 2023) to p09
-  ([PRL 2025](https://doi.org/10.1103/25tk-nctn).
-
-- `l200cfg02`: same as `cfg01`, but with outer fiber barrel removed. Data taking
-  period p10 (start: Feb 2024).
-
-- `l200cfg03`: same as `cfg02`, but with nylon mini-shrouds removed in addition.
-  Data taking period p11 (start: Apr 2024.
-
-- `l200cfg04`: configuration with _only the inner barrel of the liquid argon
-  instrumentation deployed_, no HPGe array. Data taking period p13, `r000` (Dec
-  2024).
-
-- `l200cfg05`: configuration with _both inner and outer barrels of the liquid
-  argon instrumentation deployed_, no HPGe array. Data taking period p13, `r001`
-  (Dec 2024).
-
-- `l200cfg06`: same as `cfg05`, but with some new SiPM modules. Since new
-  detectors are installed, the configuration is technically different and we
-  bump the experiment label. Data taking period p13, from `r002` (start:
-  Dec 2024) on.
-
-- `l200cfg07`: 114 kg HPGe array (start: March 2025). No good data was taken
-  with this configuration.
-
-- `l200cfg08`: 99 kg HPGe array. Data taking period p14 (start: Apr 2025)
-
-- `l200cfg09`: 138 kg HPGe array. Data taking period from p15 (start: July 2025)
-  onwards.
+`NN` is a zero-padded integer. See the [legend-pygeom-l200 documentation](https://legend-pygeom-l200.readthedocs.io/en/latest/cfg-deployments.html#supported-deployments-l200cfgnn) for a reference of all supported configurations.
 
 ### LEGEND-1000
 
