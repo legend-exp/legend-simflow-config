@@ -36,7 +36,9 @@ labels currently supported are documented below.
 ### LEGEND-200
 
 The naming convention is `l200cfgNN`, where `cfg` stands for "configuration" and
-`NN` is a zero-padded integer. See the [legend-pygeom-l200 documentation](https://legend-pygeom-l200.readthedocs.io/en/latest/cfg-deployments.html#supported-deployments-l200cfgnn) for a reference of all supported configurations.
+`NN` is a zero-padded integer. See the
+[legend-pygeom-l200 documentation](https://legend-pygeom-l200.readthedocs.io/en/latest/cfg-deployments.html#supported-deployments-l200cfgnn)
+for a reference of all supported configurations.
 
 ### LEGEND-1000
 
