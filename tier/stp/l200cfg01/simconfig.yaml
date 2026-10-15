@@ -414,6 +414,7 @@ liquid_argon_inside_minishroud_K42:
     )
   primaries_per_job: 2000000
   number_of_jobs: 10
+
 fiber_support_copper_surface_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
