@@ -1,11 +1,11 @@
 # legend-simflow-config
 
-Repository to store all the necessary config files for running the
+Repository to store all the necessary LEGEND-200 config files for running the
 [LEGEND simulation workflow](https://github.com/legend-exp/legend-simflow/).
 
 > [!NOTE]
 >
-> This is a metadata sub-repository. The LEGEND metadata is versioned and
+> This is a metadata sub-repository. The LEGEND-200 metadata is versioned and
 > distributed centrally at
 > [legend-metadata](https://github.com/legend-exp/legend-metadata).
 
@@ -30,20 +30,15 @@ Repository to store all the necessary config files for running the
 The metadata in the `tier` directory is organized by experimental configuration,
 through separate folders at the innermost level. The names of these folders are
 what is called "experiment" in
-[legend-simflow](https://github.com/legend-exp/legend-metadata). The experiment
+[legend-simflow](https://github.com/legend-exp/legend-simflow). The experiment
 labels currently supported are documented below.
-
-### LEGEND-200
 
 The naming convention is `l200cfgNN`, where `cfg` stands for "configuration" and
 `NN` is a zero-padded integer. See the
 [legend-pygeom-l200 documentation](https://legend-pygeom-l200.readthedocs.io/en/latest/cfg-deployments.html#supported-deployments-l200cfgnn)
 for a reference of all supported configurations.
 
-### LEGEND-1000
-
-The naming convention is `l1000cfgNN`, where `cfg` stands for "configuration"
-and `NN` is a zero-padded integer.
-
-- `l1000dsg01`: configuration as described in the LEGEND-1000 Conceptual Design
-  Report.
+> [!NOTE]
+>
+> LEGEND-1000 configuration is hosted separately at
+> [legend1000-metadata](https://github.com/legend-exp/legend1000-metadata).
