@@ -400,7 +400,7 @@ liquid_argon_outside_minishroud_K42:
       outer_height_in_mm=3000
     )
   primaries_per_job: 7500000
-  number_of_jobs: 10
+  number_of_jobs: 50
 
 liquid_argon_inside_minishroud_K42:
   template: $_/templates/default.mac
@@ -452,4 +452,4 @@ liquid_argon_Ar39:
   generator: ~defines:Ar39
   confinement: ~defines:lar_inside_wlsr
   primaries_per_job: 15000000
-  number_of_jobs: 23
+  number_of_jobs: 100
