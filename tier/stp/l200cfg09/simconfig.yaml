@@ -364,6 +364,31 @@ fiber_support_copper_surface_K42:
   primaries_per_job: 5000000
   number_of_jobs: 20
 
+hpge_support_copper_surface_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: ~volumes.surface:hpge_string_support_.*_copper_.*
+  primaries_per_job: 350000
+  number_of_jobs: 29
+
+minishrouds_outer_surface_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: >-
+    ~function:legendsimflow.confine.get_minishroud_outer_surface_confine_commands(
+      <...>,
+      'minishroud_tube*'
+    )
+  primaries_per_job: 5000000
+  number_of_jobs: 20
+
+cc4_boards_surface_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: ~volumes.surface:hpge_string_cc4_board_copper_.*
+  primaries_per_job: 3500000
+  number_of_jobs: 28
+
 liquid_argon_inside_minishroud_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
