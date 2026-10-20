@@ -12,5 +12,5 @@ l200cfg09:
     - sis4_z8430_slot2_Pb212_to_Pb208
     - sis4_z8630_slot2_Pb212_to_Pb208
   rdc:
-    - sis1_z8580_slot2_Pb214_to_Po214
+    - sis1_z8580_slot3_Pb214_to_Po214
     - sis1_z8640_slot3_Pb214_to_Po214
