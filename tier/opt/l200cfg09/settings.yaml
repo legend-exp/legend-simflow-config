@@ -6,9 +6,71 @@ store_expected_pes: true
 max_pes_per_hit_per_sipm: 5
 max_pes_per_hit_combined: 100
 
-# the maps are produced with SiPM PDE = 1
-# here we restore the correct PDE normalization
-optmap_scaling_factor: 0.3
+# the maps are produced with SiPM PDE = 1; these factors are the per-channel
+# photon detection efficiencies. They are fitted to p22 r017 Ar39 data (SiPM
+# multiplicity windows [6,8) and >= 15, optical map rebinned to 10 mm voxels).
+# S043 and S046 are off in p22 r017; their values come from the same fit to
+# p13 r003 data.
+optmap_scaling_factor:
+  default: 0.3
+  S002: 0.333
+  S003: 0.345
+  S007: 0.435
+  S008: 0.433
+  S011: 0.358
+  S012: 0.431
+  S015: 0.383
+  S017: 0.425
+  S020: 0.492
+  S023: 0.272
+  S024: 0.308
+  S025: 0.470
+  S026: 0.444
+  S029: 0.252
+  S031: 0.400
+  S032: 0.210
+  S036: 0.249
+  S037: 0.349
+  S040: 0.375
+  S041: 0.445
+  S042: 0.243
+  S043: 0.276 # from the p13 fit
+  S046: 0.352 # from the p13 fit
+  S047: 0.439
+  S048: 0.378
+  S049: 0.392
+  S050: 0.354
+  S051: 0.413
+  S052: 0.489
+  S053: 0.446
+  S054: 0.419
+  S055: 0.519
+  S057: 0.212
+  S058: 0.257
+  S060: 0.236
+  S061: 0.257
+  S065: 0.320
+  S067: 0.351
+  S068: 0.428
+  S070: 0.203
+  S071: 0.319
+  S073: 0.183
+  S080: 0.380
+  S082: 0.369
+  S083: 0.153
+  S085: 0.287
+  S086: 0.342
+  S087: 0.459
+  S089: 0.407
+  S090: 0.153
+  S092: 0.341
+  S093: 0.303
+  S094: 0.383
+  S095: 0.126
+  S096: 0.229
+  S098: 0.381
+  S099: 0.355
+  S100: 0.410
 
 # these numbers are a guess
 photoelectron_resolution_sigma: 0.3
