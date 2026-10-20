@@ -2,7 +2,7 @@ buffer_len: 500*MB
 dead_layer_fraction: 0.5
 
 simulate_psd: true
-simulate_psd_with_psl: false
+simulate_psd_with_psl: true
 tune_hpge_impurities_on_data: false
 two_pass_aoe_correction: false
 
