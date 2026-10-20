@@ -1,0 +1,34 @@
+# remage macro of the electron-gun simulations feeding the A/E mean
+# energy-dependence extraction. The physics and output settings are those of
+# the production template (tier/stp/<experiment>/templates/default.mac), minus
+# what the extraction does not read: the scintillator, the vertices and the
+# passive-material calorimeters.
+
+/RMG/Geometry/RegisterDetectorsFromGDML Germanium
+/RMG/Geometry/GDMLDisableOverlapCheck
+
+# name tables with ntuple
+/RMG/Output/NtupleUseVolumeName true
+
+/run/initialize
+
+# store everything in single precision
+/RMG/Output/Germanium/StoreSinglePrecisionPosition
+/RMG/Output/Germanium/StoreSinglePrecisionEnergy
+
+# do not store events with no energy deposition in germanium
+/RMG/Output/Germanium/EdepCutLow 1 eV
+
+# mono-energetic electrons, isotropic, born in the germanium itself. One
+# remage run per energy of the grid.
+/RMG/Generator/Select GPS
+/gps/particle e-
+/gps/ang/type iso
+/gps/ene/type Mono
+/gps/ene/mono {ENERGY_KEV} keV
+
+# the germanium volumes of the geometry are filled in by the Simflow
+$CONFINEMENT
+/RMG/Generator/Confinement/MaxSamplingTrials 1000000
+
+/run/beamOn {N_EVENTS}

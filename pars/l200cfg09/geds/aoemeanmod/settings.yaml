@@ -1,0 +1,14 @@
+# electron-gun simulations feeding the A/E mean energy-dependence extraction
+# (simulate_electron_gun, extract_hpge_aoemean_energy_dependence)
+
+# Number of electrons per energy, not in total: the Simflow runs remage once
+# for each of the five energies (900, 1250, 1600, 1950 and 2350 keV). They are
+# born uniformly in the bulk of all germanium detectors, so each detector gets
+# a share proportional to its volume and one pass covers the whole array.
+#
+# Sizing: about 5000 fully stopped electrons per energy and detector give the
+# A/E mean slope to 5%, and 86 to 97% of the electrons stop fully. The
+# smallest of the 60 detectors of this array (736 g of 138 kg) takes 0.54% of
+# the primaries, so 4e6 per energy leave it about 1.9e4 usable events and the
+# median detector about 7e4. 1e6 per energy would already meet the 5000.
+primaries: 4_000_000
