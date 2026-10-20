@@ -1,4 +1,5 @@
 scintillator_volume_name: liquid_argon
+light_source: optmap
 optmap_per_sipm: true
 store_expected_pes: true
 
