@@ -1,0 +1,28 @@
+# Scene for the stp geometry rendering (plot_geom_rendering). Passed to
+# pygeomtools.viewer.visualize; `fine_mesh` is applied before the geometry is
+# built and `export_and_exit` is injected by the workflow. Merged over the
+# built-in default scene, per top-level key.
+window_size: [1600, 2600]
+fine_mesh: true
+
+light:
+  pos: [-5000, 0, 5000]
+  shadow: true
+
+# fixed 3/4 view of the LEGEND-200 array (world frame, mm)
+default:
+  focus: [2.67, -48.24, 711.62]
+  up: [0, 0, 1]
+  camera: [-1994.13, 2402.30, 1861.39]
+  parallel: false
+
+# hide the opaque enclosures; make both fiber barrels and the outer copper
+# support translucent so the detector array shows through
+color_overrides:
+  cryostat_steel: false
+  liquid_argon: false
+  gaseous_argon: false
+  wlsr.*: false
+  fiber_inner_barrel_coating_tpb_IB.*: [0.0, 1.0, 0.165, 0.2]
+  fiber_outer_barrel_coating_tpb_OB.*: [0.0, 1.0, 0.165, 0.10]
+  larinstr_support_outer_copper.*: [0.72, 0.45, 0.2, 0.1]
