@@ -8,5 +8,5 @@ charge_output: wf_pz_win
 curr_output: curr_av
 energy_output: cuspEmax
 drift_time_slices: "600:200:2600"
-t0_field: spms/event_t0
+t0_field: auto
 end_time_field: geds/psd/low_aoe/time
