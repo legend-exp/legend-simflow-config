@@ -111,19 +111,19 @@ hpge_support_copper_K40:
   <<: *K40
   confinement: ~volumes.bulk:hpge_string_support_.*_copper_.*
   primaries_per_job: 5500000
-  number_of_jobs: 5
+  number_of_jobs: 10
 
 ultem_insulators_K40:
   <<: *K40
   confinement: ~volumes.bulk:hpge_assembly_insulator_ultem_.*
   primaries_per_job: 4000000
-  number_of_jobs: 3
+  number_of_jobs: 5
 
 front_end_electronics_K40:
   <<: *K40
   confinement: ~volumes.bulk:hpge_assembly_lmfe_.*
   primaries_per_job: 600000
-  number_of_jobs: 17
+  number_of_jobs: 28
 
 cables_K40:
   <<: *K40
@@ -135,7 +135,7 @@ pen_plates_K40:
   <<: *K40
   confinement: ~volumes.bulk:hpge_assembly_.*_pen.*
   primaries_per_job: 2500000
-  number_of_jobs: 4
+  number_of_jobs: 7
 
 sipm_arrays_K40:
   <<: *K40
@@ -147,7 +147,7 @@ wls_reflector_K40:
   <<: *K40
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 9500000
-  number_of_jobs: 223
+  number_of_jobs: 446
 
 minishrouds_K40:
   <<: *K40
@@ -159,7 +159,7 @@ fibers_K40:
   <<: *K40
   confinement: ~volumes.bulk:fiber_.*
   primaries_per_job: 3000000
-  number_of_jobs: 12
+  number_of_jobs: 23
 
 fiber_support_copper_K40:
   <<: *K40
@@ -362,14 +362,14 @@ fiber_support_copper_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:larinstr_support_.*
   primaries_per_job: 5000000
-  number_of_jobs: 49
+  number_of_jobs: 98
 
 hpge_support_copper_surface_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
   confinement: ~volumes.surface:hpge_string_support_.*_copper_.*
   primaries_per_job: 350000
-  number_of_jobs: 135
+  number_of_jobs: 269
 
 minishrouds_outer_surface_K42:
   template: $_/templates/default.mac
@@ -387,7 +387,7 @@ cc4_boards_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:hpge_string_cc4_board_copper_.*
   primaries_per_job: 3500000
-  number_of_jobs: 631
+  number_of_jobs: 1262
 
 liquid_argon_inside_minishroud_K42:
   template: $_/templates/default.mac
