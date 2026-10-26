@@ -363,7 +363,7 @@ cc4_boards_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:hpge_string_cc4_board_copper_.*
   primaries_per_job: 3500000
-  number_of_jobs: 141
+  number_of_jobs: 100
 
 liquid_argon_Ar39:
   template: $_/templates/default.mac
