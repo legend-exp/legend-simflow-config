@@ -147,7 +147,7 @@ wls_reflector_K40:
   <<: *K40
   confinement: ~volumes.bulk:wlsr_.*
   primaries_per_job: 9500000
-  number_of_jobs: 446
+  number_of_jobs: 200
 
 minishrouds_K40:
   <<: *K40
@@ -369,7 +369,7 @@ hpge_support_copper_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:hpge_string_support_.*_copper_.*
   primaries_per_job: 350000
-  number_of_jobs: 269
+  number_of_jobs: 50
 
 minishrouds_outer_surface_K42:
   template: $_/templates/default.mac
@@ -387,7 +387,7 @@ cc4_boards_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:hpge_string_cc4_board_copper_.*
   primaries_per_job: 3500000
-  number_of_jobs: 1262
+  number_of_jobs: 100
 
 liquid_argon_inside_minishroud_K42:
   template: $_/templates/default.mac
