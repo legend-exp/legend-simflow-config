@@ -335,6 +335,13 @@ hpge_support_copper_Mn54:
   primaries_per_job: 3000000
   number_of_jobs: 4
 
+liquid_argon_bulk_K42:
+  template: $_/templates/default.mac
+  generator: ~defines:K42
+  confinement: ~defines:lar_closer_to_array
+  primaries_per_job: 7500000
+  number_of_jobs: 50
+
 fiber_support_copper_surface_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
@@ -345,9 +352,11 @@ fiber_support_copper_surface_K42:
 hpge_support_copper_surface_K42:
   template: $_/templates/default.mac
   generator: ~defines:K42
-  confinement: ~volumes.surface:hpge_string_support_.*_copper_.*
-  primaries_per_job: 450000
-  number_of_jobs: 22
+  confinement:
+    - ~volumes.surface:hpge_string_support_weldment_copper_.*
+    - ~volumes.surface:hpge_string_support_rod_copper_.*
+  primaries_per_job: 5000000
+  number_of_jobs: 10
 
 cc4_boards_surface_K42:
   template: $_/templates/default.mac
