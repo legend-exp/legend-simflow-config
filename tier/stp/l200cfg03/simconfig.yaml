@@ -356,7 +356,7 @@ hpge_support_copper_surface_K42:
     - ~volumes.surface:hpge_string_support_weldment_copper_.*
     - ~volumes.surface:hpge_string_support_rod_copper_.*
   primaries_per_job: 5000000
-  number_of_jobs: 41
+  number_of_jobs: 40
 
 cc4_boards_surface_K42:
   template: $_/templates/default.mac
