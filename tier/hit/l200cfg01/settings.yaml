@@ -1,8 +1,6 @@
 buffer_len: 500*MB
 dead_layer_fraction: 0.5
 
-# store the energy depositions closer than 3 mm to the n+ surface, to recompute
-# the HPGe energies for other dead-layer models
 store_surface_steps: true
 surface_depth_in_mm: 3
 
