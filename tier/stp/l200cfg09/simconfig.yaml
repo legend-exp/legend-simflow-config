@@ -362,7 +362,7 @@ fiber_support_copper_surface_K42:
   generator: ~defines:K42
   confinement: ~volumes.surface:larinstr_support_.*
   primaries_per_job: 5000000
-  number_of_jobs: 98
+  number_of_jobs: 250
 
 hpge_support_copper_surface_K42:
   template: $_/templates/default.mac
@@ -380,7 +380,7 @@ minishrouds_outer_surface_K42:
       'minishroud_tube*'
     )
   primaries_per_job: 5000000
-  number_of_jobs: 20
+  number_of_jobs: 100
 
 cc4_boards_surface_K42:
   template: $_/templates/default.mac
