@@ -1,30 +1,14 @@
-hpge_icpc_bulk_2vbb:
+hpge_bulk_2vbb: &bb
   template: $_/templates/default.mac
   generator: ~defines:2vbb
-  confinement: ~volumes.bulk:^[V].*
+  confinement: ~volumes.bulk:^[BCPV][0-9].*
   primaries_per_job: 17500000
-  number_of_jobs: 2
+  number_of_jobs: 4
 
-hpge_icpc_bulk_0vbb:
-  template: $_/templates/default.mac
+hpge_bulk_0vbb:
+  <<: *bb
   generator: ~defines:0vbb
-  confinement: ~volumes.bulk:^[V].*
-  primaries_per_job: 7500000
-  number_of_jobs: 2
-
-hpge_bege_bulk_2vbb:
-  template: $_/templates/default.mac
-  generator: ~defines:2vbb
-  confinement: ~volumes.bulk:^[B].*
-  primaries_per_job: 17500000
-  number_of_jobs: 2
-
-hpge_bege_bulk_0vbb:
-  template: $_/templates/default.mac
-  generator: ~defines:0vbb
-  confinement: ~volumes.bulk:^[B].*
-  primaries_per_job: 10000000
-  number_of_jobs: 2
+  primaries_per_job: 8750000
 
 hpge_V14_bulk_Ge68:
   template: $_/templates/default.mac
