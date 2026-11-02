@@ -1,45 +1,86 @@
-hpge_bulk_2vbb: &bb
+hpge_icpc_bulk_2vbb: &bb_icpc
   template: $_/templates/default.mac
   generator: ~defines:2vbb
-  confinement: ~volumes.bulk:^[BCPV][0-9].*
+  confinement: ~volumes.bulk:^[V].*
   primaries_per_job: 17500000
-  number_of_jobs: 4
+  number_of_jobs: 2
 
-hpge_bulk_0vbb:
-  <<: *bb
+hpge_icpc_bulk_0vbb:
+  <<: *bb_icpc
   generator: ~defines:0vbb
-  primaries_per_job: 8750000
+  primaries_per_job: 7500000
 
-hpge_bulk_0vbbM1:
-  <<: *bb
+hpge_bege_bulk_2vbb: &bb_bege
+  <<: *bb_icpc
+  confinement: ~volumes.bulk:^[B].*
+
+hpge_bege_bulk_0vbb:
+  <<: *bb_bege
+  generator: ~defines:0vbb
+  primaries_per_job: 10000000
+
+hpge_icpc_bulk_0vbbM1:
+  <<: *bb_icpc
   generator: ~defines:0vbbM1
 
-hpge_bulk_0vbbM2:
-  <<: *bb
+hpge_bege_bulk_0vbbM1:
+  <<: *bb_bege
+  generator: ~defines:0vbbM1
+
+hpge_icpc_bulk_0vbbM2:
+  <<: *bb_icpc
   generator: ~defines:0vbbM2
 
-hpge_bulk_0vbbM3:
-  <<: *bb
+hpge_bege_bulk_0vbbM2:
+  <<: *bb_bege
+  generator: ~defines:0vbbM2
+
+hpge_icpc_bulk_0vbbM3:
+  <<: *bb_icpc
   generator: ~defines:0vbbM3
 
-hpge_bulk_0vbbM7:
-  <<: *bb
+hpge_bege_bulk_0vbbM3:
+  <<: *bb_bege
+  generator: ~defines:0vbbM3
+
+hpge_icpc_bulk_0vbbM7:
+  <<: *bb_icpc
   generator: ~defines:0vbbM7
 
-hpge_bulk_2vbb_lv:
-  <<: *bb
+hpge_bege_bulk_0vbbM7:
+  <<: *bb_bege
+  generator: ~defines:0vbbM7
+
+hpge_icpc_bulk_2vbb_lv:
+  <<: *bb_icpc
   generator: ~defines:2vbb_lv
 
-hpge_bulk_2vbb_2p1:
-  <<: *bb
+hpge_bege_bulk_2vbb_lv:
+  <<: *bb_bege
+  generator: ~defines:2vbb_lv
+
+hpge_icpc_bulk_2vbb_2p1:
+  <<: *bb_icpc
   generator: ~defines:2vbb_2p1
 
-hpge_bulk_2vbb_0p1:
-  <<: *bb
+hpge_bege_bulk_2vbb_2p1:
+  <<: *bb_bege
+  generator: ~defines:2vbb_2p1
+
+hpge_icpc_bulk_2vbb_0p1:
+  <<: *bb_icpc
   generator: ~defines:2vbb_0p1
 
-hpge_bulk_2vbb_2p2:
-  <<: *bb
+hpge_bege_bulk_2vbb_0p1:
+  <<: *bb_bege
+  generator: ~defines:2vbb_0p1
+
+hpge_icpc_bulk_2vbb_2p2:
+  <<: *bb_icpc
+  generator: ~defines:2vbb_2p2
+
+hpge_bege_bulk_2vbb_2p2:
+  <<: *bb_bege
   generator: ~defines:2vbb_2p2
 
 hpge_V14_bulk_Ge68:
