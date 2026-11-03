@@ -69,33 +69,13 @@ Ar39:
   - /RMG/Generator/Select BxDecay0
   - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 0vbb_M1
 
-0vbbM2:
-  - /RMG/Generator/Select BxDecay0
-  - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 0vbb_M2
-
-0vbbM3:
-  - /RMG/Generator/Select BxDecay0
-  - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 0vbb_M3
-
-0vbbM7:
-  - /RMG/Generator/Select BxDecay0
-  - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 0vbb_M7
-
 # two-neutrino double beta decay with Lorentz violation, ground state
 2vbb_lv:
   - /RMG/Generator/Select BxDecay0
   - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 2vbb_lv
 
-# two-neutrino double beta decay to the excited states of Se76:
-# 2+1 (559 keV, BxDecay0 level 1), 0+1 (1122 keV, level 2), 2+2 (1216 keV, level 3)
-2vbb_2p1:
-  - /RMG/Generator/Select BxDecay0
-  - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 2vbb_2 1
-
+# two-neutrino double beta decay to the 0+1 excited state of Se76 (1122 keV,
+# BxDecay0 level 2)
 2vbb_0p1:
   - /RMG/Generator/Select BxDecay0
   - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 2vbb 2
-
-2vbb_2p2:
-  - /RMG/Generator/Select BxDecay0
-  - /RMG/Generator/BxDecay0/DoubleBetaDecay Ge76 2vbb_2 3

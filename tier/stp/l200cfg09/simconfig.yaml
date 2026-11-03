@@ -27,30 +27,6 @@ hpge_bege_bulk_0vbbM1:
   <<: *bb_bege
   generator: ~defines:0vbbM1
 
-hpge_icpc_bulk_0vbbM2:
-  <<: *bb_icpc
-  generator: ~defines:0vbbM2
-
-hpge_bege_bulk_0vbbM2:
-  <<: *bb_bege
-  generator: ~defines:0vbbM2
-
-hpge_icpc_bulk_0vbbM3:
-  <<: *bb_icpc
-  generator: ~defines:0vbbM3
-
-hpge_bege_bulk_0vbbM3:
-  <<: *bb_bege
-  generator: ~defines:0vbbM3
-
-hpge_icpc_bulk_0vbbM7:
-  <<: *bb_icpc
-  generator: ~defines:0vbbM7
-
-hpge_bege_bulk_0vbbM7:
-  <<: *bb_bege
-  generator: ~defines:0vbbM7
-
 hpge_icpc_bulk_2vbb_lv:
   <<: *bb_icpc
   generator: ~defines:2vbb_lv
@@ -59,29 +35,19 @@ hpge_bege_bulk_2vbb_lv:
   <<: *bb_bege
   generator: ~defines:2vbb_lv
 
-hpge_icpc_bulk_2vbb_2p1:
-  <<: *bb_icpc
-  generator: ~defines:2vbb_2p1
-
-hpge_bege_bulk_2vbb_2p1:
-  <<: *bb_bege
-  generator: ~defines:2vbb_2p1
-
+# the de-excitation gammas make these about 6x slower per event than the ground
+# state: keep the jobs at about 30 min
 hpge_icpc_bulk_2vbb_0p1:
   <<: *bb_icpc
   generator: ~defines:2vbb_0p1
+  primaries_per_job: 3000000
+  number_of_jobs: 12
 
 hpge_bege_bulk_2vbb_0p1:
   <<: *bb_bege
   generator: ~defines:2vbb_0p1
-
-hpge_icpc_bulk_2vbb_2p2:
-  <<: *bb_icpc
-  generator: ~defines:2vbb_2p2
-
-hpge_bege_bulk_2vbb_2p2:
-  <<: *bb_bege
-  generator: ~defines:2vbb_2p2
+  primaries_per_job: 2500000
+  number_of_jobs: 14
 
 hpge_V14_bulk_Ge68:
   template: $_/templates/default.mac
