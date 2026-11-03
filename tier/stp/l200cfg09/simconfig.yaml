@@ -19,6 +19,98 @@ hpge_bege_bulk_0vbb:
   generator: ~defines:0vbb
   primaries_per_job: 10000000
 
+hpge_icpc_bulk_0vbbM1:
+  <<: *bb_icpc
+  generator: ~defines:0vbbM1
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_bege_bulk_0vbbM1:
+  <<: *bb_bege
+  generator: ~defines:0vbbM1
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_icpc_bulk_0vbbM2:
+  <<: *bb_icpc
+  generator: ~defines:0vbbM2
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_bege_bulk_0vbbM2:
+  <<: *bb_bege
+  generator: ~defines:0vbbM2
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_icpc_bulk_0vbbM3:
+  <<: *bb_icpc
+  generator: ~defines:0vbbM3
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_bege_bulk_0vbbM3:
+  <<: *bb_bege
+  generator: ~defines:0vbbM3
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_icpc_bulk_0vbbM7:
+  <<: *bb_icpc
+  generator: ~defines:0vbbM7
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_bege_bulk_0vbbM7:
+  <<: *bb_bege
+  generator: ~defines:0vbbM7
+  primaries_per_job: 10000000
+  number_of_jobs: 4
+
+hpge_icpc_bulk_2vbb_lv:
+  <<: *bb_icpc
+  generator: ~defines:2vbb_lv
+
+hpge_bege_bulk_2vbb_lv:
+  <<: *bb_bege
+  generator: ~defines:2vbb_lv
+
+hpge_icpc_bulk_2vbb_2p1:
+  <<: *bb_icpc
+  generator: ~defines:2vbb_2p1
+  primaries_per_job: 6000000
+  number_of_jobs: 6
+
+hpge_bege_bulk_2vbb_2p1:
+  <<: *bb_bege
+  generator: ~defines:2vbb_2p1
+  primaries_per_job: 5000000
+  number_of_jobs: 7
+
+hpge_icpc_bulk_2vbb_0p1:
+  <<: *bb_icpc
+  generator: ~defines:2vbb_0p1
+  primaries_per_job: 4000000
+  number_of_jobs: 9
+
+hpge_bege_bulk_2vbb_0p1:
+  <<: *bb_bege
+  generator: ~defines:2vbb_0p1
+  primaries_per_job: 4000000
+  number_of_jobs: 9
+
+hpge_icpc_bulk_2vbb_2p2:
+  <<: *bb_icpc
+  generator: ~defines:2vbb_2p2
+  primaries_per_job: 4000000
+  number_of_jobs: 9
+
+hpge_bege_bulk_2vbb_2p2:
+  <<: *bb_bege
+  generator: ~defines:2vbb_2p2
+  primaries_per_job: 4000000
+  number_of_jobs: 9
+
 hpge_V14_bulk_Ge68:
   template: $_/templates/default.mac
   generator: ~defines:Ge68
